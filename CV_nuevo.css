@@ -2,3 +2,41 @@
     margin: 0;
     padding: 0;
 }
+
+/* Header */
+header{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    padding: 0 2em;
+}
+header #presentation{
+    margin: auto;
+    text-align: center;
+}
+header #presentation img{
+    width: 10em;
+    border-radius: 50%;
+}
+header #contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+header #contacto img{
+    width: 1.5em;
+}
+header #contacto .dataContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+}
+
+iframe{
+    border:1px solid red;
+    width:100%;
+    height: fit-content;
+}
