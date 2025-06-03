@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
 /* Header */
 header{
     display: flex;
@@ -34,9 +38,17 @@ header #contacto .dataContact{
     align-items: center;
     gap:1em;
 }
+/* Section */
 
-iframe{
-    border:1px solid red;
-    width:100%;
-    height: fit-content;
+.section{
+    padding-left: 2em;
+}
+.section ul li{
+    margin-left: 2em;
+}
+ /* Information */
+.data{
+    display: flex;
+    flex-direction: column;
+    gap:2em
 }

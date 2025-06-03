@@ -1,0 +1,4 @@
+Developed desktop applications to manipulate and automate documentation tasks.
+Created a flask server to save user signatures for documentation
+Created desktop tools to communicate with different devices via the UART protocol to configuration purposes
+Built desktop tools to execute user-defined programs on a battery discharging machine

@@ -1,0 +1,5 @@
+Logical thinking.
+problems solving.
+Embebed systems (C, C++)
+Comunication protocols (UART, I2C, SPI, CAN, Ethernet, WiFi)
+Hardware design (Altium designer, KiCad)

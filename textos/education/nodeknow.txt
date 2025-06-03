@@ -1,0 +1,10 @@
+File management
+NPM package management
+Web servers
+Express
+Router
+Template engines (Handlebars)
+Websockets
+MongoDB
+Cookies, sessions, storage, autorization, authentication
+JWT
