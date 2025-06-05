@@ -1,11 +1,31 @@
+@page {
+  size: A4;
+  margin: 20mm;
+}
+@media print{
+    .section{
+        break-inside: avoid;
+    }
+    .body {
+        margin: 1em;
+    }
+}
 *{
     margin: 0;
     padding: 0;
 }
+/* General */
+
 .body{
+    width: 210mm;
+    height: 297mm;
+    margin: 1em;
     display: flex;
     flex-direction: column;
     gap: 2em;
+}
+.body hr{
+    margin-bottom: 2em;
 }
 /* Header */
 header{
@@ -38,16 +58,28 @@ header #contacto .dataContact{
     align-items: center;
     gap:1em;
 }
+header a{
+    text-decoration: none;
+    color:#020202;
+}
 /* Section */
 
 .section{
     padding-left: 2em;
+    break-inside: avoid;
 }
 .section ul li{
     margin-left: 2em;
 }
  /* Information */
 .data{
+    display: flex;
+    flex-direction: column;
+    gap:2em
+}
+
+/* background */
+#jobs{
     display: flex;
     flex-direction: column;
     gap:2em

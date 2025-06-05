@@ -1,10 +1,7 @@
 File management
 NPM package management
-Web servers
-Express
-Router
+Express, Router
 Template engines (Handlebars)
-Websockets
-MongoDB
-Cookies, sessions, storage, autorization, authentication
-JWT
+Websockets, MongoDB
+Cookies, sessions, storage, autorization, authentication, JWT
+git, github

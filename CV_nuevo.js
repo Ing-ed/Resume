@@ -20,6 +20,7 @@ router.get("/",async (req, res) =>{
     const about = await ReadText('professional/descript.txt')
     // console.log(about)
     const descript = await ReadText('professional/descript.txt')
+    const reactProj = await (await ReadText('professional/ReactJS.txt')).split('\r\n')
     const pythonProj = await (await ReadText('professional/python.txt')).split('\r\n')
     const jsProj = await (await ReadText('professional/js.txt')).split('\r\n')
     const fsProj = await (await ReadText('professional/fullstack.txt')).split('\r\n')
@@ -33,6 +34,7 @@ router.get("/",async (req, res) =>{
     res.render('CV_nuevo',{about:about,
         descript:descript,
         pythonProj:pythonProj,
+        reactProj:reactProj,
         jsProj:jsProj,
         fsProj:fsProj,
         ingKnow:ingKnow,
