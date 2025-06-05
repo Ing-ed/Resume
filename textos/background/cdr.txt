@@ -1,3 +1,0 @@
-Worked in the Research and Development area, contributing to hardware and software development.
-My resposabilities included low-level programming (C, C++) also desktop tools for final users, operation of measurment instruments (multimeter, osciloscope, lab power supply, electronic loads, etc.)
-I realize 3D part design using parametric CAD software (Solidworks, Fusion360).

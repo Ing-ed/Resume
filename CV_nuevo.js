@@ -17,33 +17,17 @@ app.use("/",router)
 
 router.get("/",async (req, res) =>{
     console.log("aca")
-    const about = await ReadText('professional/descript.txt')
-    // console.log(about)
-    const descript = await ReadText('professional/descript.txt')
-    const reactProj = await (await ReadText('professional/ReactJS.txt')).split('\r\n')
-    const pythonProj = await (await ReadText('professional/python.txt')).split('\r\n')
-    const jsProj = await (await ReadText('professional/js.txt')).split('\r\n')
-    const fsProj = await (await ReadText('professional/fullstack.txt')).split('\r\n')
-    const ingKnow = await (await ReadText('education/ingknow.txt')).split('\r\n');
-    const reactKnow = await (await ReadText('education/reactknow.txt')).split('\r\n');
-    const nodeKnow = await (await ReadText('education/nodeknow.txt')).split('\r\n');
-    const bio = await ReadText('background/bio.txt')
-    const cdr = await ReadText('background/cdr.txt')
-    const csl = await ReadText('background/csl.txt')
+    const about = await ReadText('about.txt')
+    const prof = await JSON.parse((await ReadText('professional/professional.json')))
+    const education = await JSON.parse(await ReadText('education/education.json'))
+    const background = await JSON.parse(await ReadText('background/background.json'))
     
-    res.render('CV_nuevo',{about:about,
-        descript:descript,
-        pythonProj:pythonProj,
-        reactProj:reactProj,
-        jsProj:jsProj,
-        fsProj:fsProj,
-        ingKnow:ingKnow,
-        reactKnow:reactKnow,
-        nodeKnow:nodeKnow,
-        bio:bio,
-        cdr:cdr,
-        csl:csl
-    })
+    res.render('CV_nuevo',{
+        about:about,
+        prof:prof,
+        education:education,
+        background:background,
+        })
 })
 
 app.listen(8080);

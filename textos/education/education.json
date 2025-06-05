@@ -1,0 +1,42 @@
+{
+    "title":"Education",
+    "relevant":"Relevant knoledges",
+    "eds":[
+        {
+            "title":"Electronics Engineer with orientation to digital systems (Finished)",
+            "date":"2007 - 2019",
+            "stablish":"Universidad Nacional de San Luis",
+            "knows":[
+                "Logical thinking.",
+                "problems solving.",
+                "Embebed systems (C, C++)",
+                "Comunication protocols (UART, I2C, SPI, CAN, Ethernet, WiFi)",
+                "Hardware design (Altium designer, KiCad)"
+            ]
+        },
+        {
+            "title":"ReactJS developer, Coderhouse",
+            "date":"02/2023 - 04/2023",
+            "knows":[
+                "JavaScript, HTML, CSS",
+                "ReactJS",
+                "Routing & navigation",
+                "Events, Hooks, Context",
+                "React-native, git, github"
+            ]
+        },
+        {
+            "title":"Backend developer (Unfinished)",
+            "date":"08/2023 - 03/2024",
+            "knows":[
+                "File management",
+                "NPM package management",
+                "Express, Router",
+                "Template engines (Handlebars)",
+                "Websockets, MongoDB",
+                "Cookies, sessions, storage, authorisation, authentication, JWT",
+                "git, github"
+            ]
+        }
+    ]
+}

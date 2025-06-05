@@ -1,7 +1,0 @@
-File management
-NPM package management
-Express, Router
-Template engines (Handlebars)
-Websockets, MongoDB
-Cookies, sessions, storage, autorization, authentication, JWT
-git, github

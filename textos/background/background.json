@@ -1,0 +1,20 @@
+{
+    "title":"Other jobs",
+    "jobs":[
+        {
+            "title":"Cientifica San Luis S.A",
+            "date":"2023 - present",
+            "descr":"This is my actual job. I'm responsible for preventive and corrective maintenance of clinical laboratory equipament. Duties include the use of measurement instruments, interdisciplinary collaboration with biochemists and medical professional. Regular communication en english with international suppliers."
+        },
+        {
+            "title":"Coradir S.A",
+            "date":"2021 - 2023",
+            "descr":"Worked in the Research and Development area, contributing to hardware and software development. My resposabilities included low-level programming (C, C++) also desktop tools for final users, operation of measurement instruments (multimeter, osciloscope, lab power supply, electronic loads, etc.) I realize 3D part design using parametric CAD software (Solidworks, Fusion360)."
+        },
+        {
+            "title":"Laboratorios Biofarma S.A",
+            "date":"2020 - 2021",
+            "descr":"In this Job, my main task was to perform preventive and corrective maintenance on clinical laboratory equipament. I used diverse measurements instruments and worked as part of a multidisciplinary team"
+        }
+    ]
+}

@@ -1,5 +1,0 @@
-Javascript, HTML, CSS
-ReactJS
-Routing & navigation
-Events, Hooks, Context
-React-native, git, github

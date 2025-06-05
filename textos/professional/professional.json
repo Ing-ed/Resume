@@ -1,0 +1,39 @@
+{
+    "title":"Professional experience",
+    "descr":"as freelance developer, I have used various technologies that have allowed me enhance my capabilities through my different professional environements",
+    "date":"2021 - present",
+    "tech":{
+        "title":"technologies:",
+        "data":"python, javascript, ReactJs, NodeJs, MongoDB, SQLite"
+    },
+    "langs":[
+        {
+            "lang":"ReactJs",
+            "projs":[
+                "I have worked as developer on a freelance team for an ecomerce designing and developing a responsive web page (no longer available)",
+                "Developed a responsive front-end for an ecomerce on ReactJS this was the final project of my ReactJS course."
+            ]
+        },
+        {
+            "lang":"Python",
+            "projs":[
+                "Developed desktop applications to manipulate and automate documentation tasks.",
+                "Created a flask server to save user signatures for documentation",
+                "Created desktop tools to communicate with different devices via the UART protocol for configuration purposes",
+                "Built desktop tools to execute user-defined programs on a battery discharging machine"
+            ]
+        },
+        {
+            "lang":"JavaScript",
+            "projs":[
+                "Developed a chrome extension that streamlined document signing and improved file organization workflows."
+            ]
+        },
+        {
+            "lang":"Full-stack",
+            "projs":[
+                "Designed and developed a Full-stack IoT control platform, including user/device registration and MQTT messaging capabilities. — developed independently as part of a self-initiated project using ReactJS (Frontend), NodeJS (Backend) and MongoDB (database management)."
+            ]
+        }
+    ]
+}

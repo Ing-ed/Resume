@@ -2,14 +2,14 @@
   size: A4;
   margin: 20mm;
 }
-@media print{
+/* @media print{
     .section{
         break-inside: avoid;
     }
     .body {
         margin: 1em;
     }
-}
+} */
 *{
     margin: 0;
     padding: 0;
@@ -71,6 +71,13 @@ header a{
 .section ul li{
     margin-left: 2em;
 }
+/* listas */
+.listas{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+
  /* Information */
 .data{
     display: flex;

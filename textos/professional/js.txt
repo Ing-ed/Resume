@@ -1,1 +1,0 @@
-Developed a chrome extension that streamlined document signing and improved file organization workflows.

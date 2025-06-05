@@ -3,7 +3,7 @@
         <div id="presentation">
             <img src="../fotos/fotoCV.jpg" alt="">
             <h1>Emiliano Dovichi</h1>
-            <h3>freelance full-stack developer</h3>
+            <h3>freelance full-stack developer - Electronic engineer</h3>
         </div>
         <div id="contacto">
             <div id="correo" class="dataContact">
@@ -26,94 +26,53 @@
         <p>{{about}}</p>
     </div>
     <div id="experience" class="section">
-        <h3>Professional Experience</h3>
+        <h3>{{prof.title}}</h3>
         <hr>
-        <i>2021-present</i>
-        <p><strong>technologies: </strong>python, javascript, ReactJs, NodeJs, MongoDB, SQLite </p>
-        <p>{{descript}}</p>
-        <h4>technologies</h4>
-        {{#if reactProj}}
-            <p><strong>ReactJS</strong></p>
+        <i>{{prof.date}}</i>
+        <p>{{prof.descr}}</p>
+        <h4>{{prof.tech.title}}</h4>
+        <div class="listas">
+        {{#each prof.langs}}
+            <p><strong>{{this.lang}}</strong></p>
             <ul>
-                {{#each reactProj}}
+                {{#each this.projs}}
                     <li>{{this}}</li>
                 {{/each}}
             </ul>
-        {{/if}}
-        <br>
-        <p><strong>Python:</strong></p>
-        <ul>
-            {{#each pythonProj}}
-                <li>{{this}}</li>
-            {{/each}}
-        </ul>
-        <br>
-        <p><strong>Javascript</strong></p>
-        <ul>
-            {{#each jsProj}}
-                <li>{{this}}</li>
-            {{/each}}
-        </ul>
-        <br>
-        <p><strong>Full-stack</strong></p>
-        <ul>
-            {{#each fsProj}}
-                <li>{{this}}</li>
-            {{/each}}
-        </ul>
+        {{/each}}
+        </div>
     </div>
     {{!-- <div id="tecnologies" class="section"></div> --}}
     <div id="education" class="section">
-        <h3>Education</h3>
+        <h3>{{education.title}}</h3>
+        {{!-- <p>{{education.relevant}}</p> --}}
         <hr>
-        <p><strong>Electronics Engineer with orientation to digital systems</strong> (Finished)</p>
-        <p><i>2007 - 2019</i></p>
-        <p>Universidad Nacional de San Luis</p>
-        <p>Relevant knowledge</p>
-        <ul>
-            {{#each ingKnow}}
-                <li>{{this}}</li>
-            {{/each}}
-        </ul>
-        <br>
-        <p><strong>ReactJS developer, Coderhouse</strong></p>
-        <p><i>02/2023 - 04/2023</i></p>
-        <p>Relevant knowledge</p>
-        <ul>
-            {{#each reactKnow}}
-                <li>{{this}}</li>
-            {{/each}}
-        </ul>
-        <br>
-        <p><strong>Backend developer (Unfinished)</strong></p>
-        <p><i>08/2023 - 03/2024</i></p>
-        <p>Relevant knowledge</p>
-        <ul>
-            {{#each nodeKnow}}
-                <li>{{this}}</li>
-            {{/each}}
-        </ul>
+        {{#each education.eds}}
+            <p><strong>{{this.title}}</strong></p>
+            <p><i>{{this.date}}</i></p>
+            <p>{{this.stablish}}</p>
+            <p>{{education.relevant}}</p>
+            <ul>
+                {{#each this.knows}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            <br>
+        {{/each}}
+        
         <br>
     </div>
     <div id="background" class="section">
-        <h3>Other jobs</h3>
+        <h3>{{background.title}}</h3>
         <hr>
         <div id="jobs">
-            <div>
-                <p><strong>Cientifica San Luis S.A</strong></p>
-                <p><i>2023 - present</i></p>
-                {{csl}}
-            </div>
-            <div>
-                <p><strong>Coradir S.A</strong></p>
-                <p><i>2021 - 2023</i></p>
-                {{cdr}}
-            </div>
-            <div>
-                <p><strong>Laboratorios Biofarma S.A</strong></p>
-                <p><i>2020 - 2021</i></p>
-                {{bio}}
-            </div>
+            {{#each background.jobs}}
+                <div>
+                    <p><strong>{{this.title}}</strong></p>
+                    <p><i>{{this.date}}</i></p>
+                    <p>{{this.descr}}</p>
+                </div>
+            {{/each}}
         </div>
     </div>
 </div>
