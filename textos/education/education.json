@@ -37,6 +37,13 @@
                 "Cookies, sessions, storage, authorisation, authentication, JWT",
                 "git, github"
             ]
+        },
+        {
+            "title":"Languajes",
+            "knows":[
+                "Spanis: Native",
+                "English: Intermediate"
+            ]
         }
     ]
 }

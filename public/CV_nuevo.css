@@ -2,14 +2,14 @@
   size: A4;
   margin: 20mm;
 }
-/* @media print{
+@media print{
     .section{
         break-inside: avoid;
     }
     .body {
         margin: 1em;
     }
-} */
+}
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +26,7 @@
 }
 .body hr{
     margin-bottom: 2em;
+    /* box-shadow: 0 0 10px teal; */
 }
 /* Header */
 header{
@@ -40,7 +41,9 @@ header #presentation{
 }
 header #presentation img{
     width: 10em;
+    border: 1px solid teal;
     border-radius: 50%;
+    box-shadow: 0 0 10px teal;
 }
 header #contacto{
     display: flex;
@@ -70,6 +73,9 @@ header a{
 }
 .section ul li{
     margin-left: 2em;
+}
+.section h3{
+    margin-bottom: 0.5em;
 }
 /* listas */
 .listas{
