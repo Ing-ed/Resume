@@ -1,20 +1,21 @@
 {
-    "title":"Other jobs",
+    "title":"Experiencia complementaria",
     "jobs":[
         {
             "title":"Cientifica San Luis S.A",
-            "date":"2023 - present",
-            "descr":"This is my actual job. I'm responsible for preventive and corrective maintenance of clinical laboratory equipament. Duties include the use of measurement instruments, interdisciplinary collaboration with biochemists and medical professional. Regular communication en english with international suppliers."
+            "date":"2023 - presente",
+            "descr":"Mi actual trabajo, mis responsabilidades incluyen el mantenimiento preventivo y correctivo de equipamiento de laboratorio clinico, manejo de instrumentos de medición, colaboración interdiciplinaria con bioquimicos y profesionales medicos, comunicaciones en ingles con proveedores internacionales."
         },
         {
             "title":"Coradir S.A",
             "date":"2021 - 2023",
-            "descr":"Worked in the Research and Development area, contributing to hardware and software development. My resposabilities included low-level programming (C, C++) also desktop tools for final users, operation of measurement instruments (multimeter, osciloscope, lab power supply, electronic loads, etc.) I realize 3D part design using parametric CAD software (Solidworks, Fusion360)."
+            "descr":"En área investigación y desarrollo, contribuyendo al desarrollo de hardware y software, entre las actividades se destacan, programación en bajo nivel (C, C++), Desarrollo de aplicaciones de escritorio (Python), manejo de instrumentos de medición (multimetro, osciloscopio, fuentes de laboratorio, cargas electrónicas, etc) y diseño y modelado 3D usando software de diseño parametrico (Solidworks, Fusion360)."
+        
         },
         {
             "title":"Laboratorios Biofarma S.A",
             "date":"2020 - 2021",
-            "descr":"In this Job, my main task was to perform preventive and corrective maintenance on clinical laboratory equipament. I used diverse measurements instruments and worked as part of a multidisciplinary team"
+            "descr":"En éste trabajo me desenvolví realizando tareas de mantenimiento preventivo y correctivo de equipamiento de laboratorio clinico, usando distintos instrumentos de medicion y trabajando en un entorno de trabajo multidiciplinario."
         }
     ]
 }
