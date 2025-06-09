@@ -1,7 +1,7 @@
 <div class="body">
     <header>
         <div id="presentation">
-            <img src="../fotos/fotoCV.jpg" alt="">
+            <img src="../fotos/fotoCV2.jpg" alt="">
             <h1>Emiliano Dovichi</h1>
             <h3>Desarrollador Freelance Full-stack - Ingeniero Electronico</h3>
         </div>
@@ -16,11 +16,11 @@
             </div>
             <div id="linkedin" class="dataContact">
                 <img src="../iconos/linkedin.png" alt="">
-                <p><a href="https://www.linkedin.com/in/emiliano-dovichi/">Go to profile</a></p>
+                <p><a href="https://www.linkedin.com/in/emiliano-dovichi/">Ver perfil</a></p>
             </div>
             <div id="github" class="dataContact">
                 <img src="../iconos/github.png" alt="">
-                <p><a href="https://github.com/Ing-ed">Go to profile</a></p>
+                <p><a href="https://github.com/Ing-ed">Ver perfil</a></p>
             </div>
         </div>
     </header>
@@ -40,7 +40,11 @@
             <p><strong>{{this.lang}}</strong></p>
             <ul>
                 {{#each this.projs}}
+                    {{#if this.nota}}
+                    <li>{{this.nota}} <a href={{this.link}}>{{this.link}}</a> </li>
+                    {{else}}
                     <li>{{this}}</li>
+                    {{/if}}
                 {{/each}}
             </ul>
         {{/each}}

@@ -28,6 +28,10 @@
     margin-bottom: 2em;
     /* box-shadow: 0 0 10px teal; */
 }
+.body a{
+    text-decoration: none;
+    color:#020202;
+}
 /* Header */
 header{
     display: flex;
@@ -61,10 +65,7 @@ header #contacto .dataContact{
     align-items: center;
     gap:1em;
 }
-header a{
-    text-decoration: none;
-    color:#020202;
-}
+
 /* Section */
 
 .section{

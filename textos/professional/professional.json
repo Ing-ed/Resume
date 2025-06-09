@@ -34,6 +34,14 @@
             "projs":[
                 "Diseño y desarrollo de una plataforma Full-Stack para control de dispositivos IOT, incluyendo registro de usuarios y mensajeria MQTT - Desarrollado de manera independiente como proyecto autoiniciado, usando tecnologias como ReactJS (Frontend), NodeJS (Backend) y MongoDB (Base de datos)"
             ]
+        },{
+            "lang":"Nota",
+            "projs":[
+                {
+                    "nota":"Este texto fue generado como parte de un proyecto personal de Backend, utilizando NodeJS para la gestion de archivos y handlebars como motor de plantillas para renderizado, link: ",
+                    "link":"https://github.com/Ing-ed/Resume.git"
+                }
+            ]
         }
     ]
 }
