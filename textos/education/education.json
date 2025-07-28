@@ -9,6 +9,7 @@
             "knows":[
                 "Pensamiento logico.",
                 "Resolución de problemas.",
+                "Lenguaje ladder (PLCs)",
                 "Sistemas embebidos (C, C++)",
                 "Protocolos de comunicación (UART, I2C, SPI, CAN, Ethernet, WiFi)",
                 "Diseño de hardware (Altium designer, KiCad)"

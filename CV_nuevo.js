@@ -17,8 +17,8 @@ app.use("/",router)
 
 router.get("/",async (req, res) =>{
     console.log("aca")
-    const about = await ReadText('about.txt')
-    const prof = await JSON.parse((await ReadText('professional/professional.json')))
+    const about = await JSON.parse(await ReadText('about.json'))
+    const prof = await JSON.parse(await ReadText('professional/professional.json'))
     const education = await JSON.parse(await ReadText('education/education.json'))
     const background = await JSON.parse(await ReadText('background/background.json'))
     

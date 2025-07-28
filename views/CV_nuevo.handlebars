@@ -3,7 +3,7 @@
         <div id="presentation">
             <img src="../fotos/fotoCV2.jpg" alt="">
             <h1>Emiliano Dovichi</h1>
-            <h3>Desarrollador Freelance Full-stack - Ingeniero Electronico</h3>
+            <h3>Ingeniero Electronico - Desarrollador Freelance Full-stack</h3>
         </div>
         <div id="contacto">
             <div id="correo" class="dataContact">
@@ -27,60 +27,62 @@
     <div id="abstract" class="section">
         <h3>Sobre mi</h3>
         <hr class="vhr">
-        <p>{{about}}</p>
+        <p>{{about.engineer}}</p>
     </div>
-    <div id="experience" class="section">
-        <h3>{{prof.title}}</h3>
-        <hr>
-        <i>{{prof.date}}</i>
-        <p>{{prof.descr}}</p>
-        <h4>{{prof.tech.title}}</h4>
-        <div class="listas">
-        {{#each prof.langs}}
-            <p><strong>{{this.lang}}</strong></p>
-            <ul>
-                {{#each this.projs}}
-                    {{#if this.nota}}
-                    <li>{{this.nota}} <a href={{this.link}}>{{this.link}}</a> </li>
-                    {{else}}
-                    <li>{{this}}</li>
-                    {{/if}}
+    <div id="cuerpo">
+        <div id="background" class="section">
+            <h3>{{background.title}}</h3>
+            <hr>
+            <div id="jobs">
+                {{#each background.jobs}}
+                    <div>
+                        <p><strong>{{this.title}}</strong></p>
+                        <p><i>{{this.date}}</i></p>
+                        <p>{{this.descr}}</p>
+                    </div>
                 {{/each}}
-            </ul>
-        {{/each}}
+            </div>
         </div>
-    </div>
-    {{!-- <div id="tecnologies" class="section"></div> --}}
-    <div id="education" class="section">
-        <h3>{{education.title}}</h3>
-        {{!-- <p>{{education.relevant}}</p> --}}
-        <hr>
-        {{#each education.eds}}
-            <p><strong>{{this.title}}</strong></p>
-            <p><i>{{this.date}}</i></p>
-            <p>{{this.stablish}}</p>
-            <p>{{education.relevant}}</p>
-            <ul>
-                {{#each this.knows}}
-                    <li>{{this}}</li>
-                {{/each}}
-            </ul>
-            <br>
-        {{/each}}
-        
-        <br>
-    </div>
-    <div id="background" class="section">
-        <h3>{{background.title}}</h3>
-        <hr>
-        <div id="jobs">
-            {{#each background.jobs}}
-                <div>
-                    <p><strong>{{this.title}}</strong></p>
-                    <p><i>{{this.date}}</i></p>
-                    <p>{{this.descr}}</p>
-                </div>
+        {{!-- <div id="tecnologies" class="section"></div> --}}
+        <div id="education" class="section">
+            <h3>{{education.title}}</h3>
+            {{!-- <p>{{education.relevant}}</p> --}}
+            <hr>
+            {{#each education.eds}}
+                <p><strong>{{this.title}}</strong></p>
+                <p><i>{{this.date}}</i></p>
+                <p>{{this.stablish}}</p>
+                <p>{{education.relevant}}</p>
+                <ul>
+                    {{#each this.knows}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+                {{!-- <br> --}}
             {{/each}}
+            
+            <br>
+        </div>
+        <div id="experience" class="section">
+            <h3>{{prof.title}}</h3>
+            <hr>
+            <i>{{prof.date}}</i>
+            <p>{{prof.descr}}</p>
+            <h4>{{prof.tech.title}}</h4>
+            <div class="listas">
+            {{#each prof.langs}}
+                <p><strong>{{this.lang}}</strong></p>
+                <ul>
+                    {{#each this.projs}}
+                        {{#if this.nota}}
+                        <li>{{this.nota}} <a href={{this.link}}>{{this.link}}</a> </li>
+                        {{else}}
+                        <li>{{this}}</li>
+                        {{/if}}
+                    {{/each}}
+                </ul>
+            {{/each}}
+            </div>
         </div>
     </div>
 </div>

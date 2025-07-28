@@ -2,36 +2,20 @@
   size: A4;
   margin: 20mm;
 }
-@media print{
+/* @media print{
     .section{
         break-inside: avoid;
     }
     .body {
         margin: 1em;
     }
-}
+} */
 *{
     margin: 0;
     padding: 0;
 }
 /* General */
 
-.body{
-    width: 210mm;
-    height: 297mm;
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
-.body hr{
-    margin-bottom: 2em;
-    /* box-shadow: 0 0 10px teal; */
-}
-.body a{
-    text-decoration: none;
-    color:#020202;
-}
 /* Header */
 header{
     display: flex;
@@ -44,7 +28,7 @@ header #presentation{
     text-align: center;
 }
 header #presentation img{
-    width: 10em;
+    width: 25em;
     border: 1px solid teal;
     border-radius: 50%;
     box-shadow: 0 0 10px teal;
@@ -53,7 +37,7 @@ header #contacto{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    
 }
 header #contacto img{
     width: 1.5em;
@@ -66,10 +50,29 @@ header #contacto .dataContact{
     gap:0.3em;
 }
 
+.body{
+    width: 210mm;
+    height: 297mm;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.body a{
+    text-decoration: none;
+    color:#020202;
+}
+#cuerpo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 /* Section */
 
 .section{
     padding-left: 2em;
+    margin-bottom: 3em;
     break-inside: avoid;
 }
 .section ul li{
@@ -78,18 +81,12 @@ header #contacto .dataContact{
 .section h3{
     margin-bottom: 0.5em;
 }
+
 /* listas */
 .listas{
     display: flex;
     flex-direction: column;
-    gap:1em;
-}
-
- /* Information */
-.data{
-    display: flex;
-    flex-direction: column;
-    gap:2em
+    gap:0.5em;
 }
 
 /* background */
