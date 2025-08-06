@@ -1,50 +1,50 @@
 {
-    "title":"Educación",
-    "relevant":"Conocimientos relevantes",
+    "title":"Education",
+    "relevant":"Relevant knoledges",
     "eds":[
         {
-            "title":"Ingeniero Electrónico con Orientación en Sistemas Digitales (finalizado)",
+            "title":"Electronics Engineer with orientation to digital systems (Finished)",
             "date":"2007 - 2019",
             "stablish":"Universidad Nacional de San Luis",
             "knows":[
-                "Pensamiento logico.",
-                "Resolución de problemas.",
-                "Lenguaje ladder (PLCs)",
-                "Sistemas embebidos (C, C++)",
-                "Protocolos de comunicación (UART, I2C, SPI, CAN, Ethernet, WiFi)",
-                "Diseño de hardware (Altium designer, KiCad)"
+                "Logical thinking.",
+                "problems solving.",
+                "Ladder language for PLCs",
+                "Embebed systems (C, C++)",
+                "Comunication protocols (UART, I2C, SPI, CAN, Ethernet, WiFi)",
+                "Hardware design (Altium designer, KiCad)"
             ]
         },
         {
-            "title":"Desarrollo Front-end, ReactJS, Coderhouse",
+            "title":"ReactJS developer, Coderhouse",
             "date":"02/2023 - 04/2023",
             "knows":[
                 "JavaScript, HTML, CSS",
                 "ReactJS",
                 "Routing & navigation",
                 "Events, Hooks, Context",
-                "React-native, git, github",
+                "React-native", 
                 "git, github"
             ]
         },
         {
-            "title":"Desarrollo Back-end, Coderhouse",
+            "title":"Backend developer (Unfinished)",
             "date":"08/2023 - 03/2024",
             "knows":[
-                "Manejo de archivos",
-                "Administrador de paquetes NPM.",
+                "File management",
+                "NPM package management",
                 "Express, Router",
-                "Motores de plantillas (Handlebars)",
+                "Template engines (Handlebars)",
                 "Websockets, MongoDB",
                 "Cookies, sessions, storage, authorisation, authentication, JWT",
                 "git, github"
             ]
         },
         {
-            "title":"Languajes",
+            "title":"Languages",
             "knows":[
-                "Español: Nativo",
-                "Ingles: Nivel intermedio"
+                "Spanish: Native",
+                "English: Intermediate level"
             ]
         }
     ]

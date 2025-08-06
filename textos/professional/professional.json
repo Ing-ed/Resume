@@ -1,45 +1,40 @@
 {
-    "title":"Experiencia complementaria",
-    "descr":"Como desarrollador freelancer, he utilizado diferentes tecnologias que me permitieron potenciar mis capacidades en mis distintos entornos profesionales.\n Entre mis proyectos se destacan los siguientes.",
-    "date":"2021 - presente",
+    "title":"Complementary experience",
+    "descr":"as freelance developer, I have used various technologies that have allowed me enhance my capabilities through my different professional environements",
+    "date":"2021 - present",
     "tech":{
-        "title":"Tecnologias:",
+        "title":"technologies:",
         "data":"python, javascript, ReactJs, NodeJs, MongoDB, SQLite"
     },
     "langs":[
         {
             "lang":"Full-stack",
             "projs":[
-                "Diseño y desarrollo de una plataforma Full-Stack para control de dispositivos IOT, incluyendo registro de usuarios y mensajeria MQTT - Desarrollado de manera independiente como proyecto autoiniciado, usando tecnologias como ReactJS (Frontend), NodeJS (Backend) y MongoDB (Base de datos)"
+                "Designed and developed a Full-stack IoT control platform, including user/device registration and MQTT messaging capabilities. — developed independently as part of a self-initiated project using ReactJS (Frontend), NodeJS (Backend) and MongoDB (database management).",
+                "Created a flask server to save user signatures for documentation,Manage documents, fill in the SQL database and send email with the attached document, also a web browser extention (Javascript) allows insert the sign the document and download it."
+
             ]
         },
         {
             "lang":"Python",
             "projs":[
-                "He desarrollado aplicaciones de escritorio para manipular y automatizar tareas de documentación en mi entorno laboral.",
-                "He creado un servidor FLASK para guardar firmas de usuario para documentación.",
-                "He desarrollado herramientas de escritorio para comunicacion con diferentes dispositivos a traves de protocolo UART con propositos de configuración",
-                "Construcción de una aplicacion de escritorio para ejecutar programas definidos por usuarios en una maquina de descarga de baterias."
+                "Developed desktop applications to manipulate and automate documentation tasks.",
+                "Created desktop tools to communicate with different devices via the UART protocol for configuration purposes",
+                "Built desktop tools to execute user-defined programs on a battery discharging machine"
             ]
         },
         {
             "lang":"ReactJs",
             "projs":[
-                "Trabaje como desarrollador en un equipo freelance para un e-commerce, diseñando y desarrollando una pagina web responsive (actualmente no disponible)",
-                "He desarrollado un front-end responsive para un e-commerce ficticio como parte del trabajo final de mi curso de ReactJS."
+                "I have worked as developer on a freelance team for an ecomerce designing and developing a responsive web page (no longer available)",
+                "Developed a responsive front-end for an ecomerce on ReactJS this was the final project of my ReactJS course."
             ]
         },
         {
-            "lang":"JavaScript",
-            "projs":[
-                "Desarrollo de una extensión para chrome que optimiza la firma de documentos y ayuda en la organización de los mismos."
-            ]
-        },
-        {
-            "lang":"Nota",
+            "lang":"Note",
             "projs":[
                 {
-                    "nota":"Este texto fue generado como parte de un proyecto personal de Backend, utilizando NodeJS para la gestion de archivos y handlebars como motor de plantillas para renderizado, link: ",
+                    "nota":"this text was generated as part a personal back-end project, using NodeJS for file manage and handlebars as template renderer, link: ",
                     "link":"https://github.com/Ing-ed/Resume.git"
                 }
             ]
