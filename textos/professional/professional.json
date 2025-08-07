@@ -4,42 +4,37 @@
     "date":"2021 - presente",
     "tech":{
         "title":"Tecnologias:",
-        "data":"python, javascript, ReactJs, NodeJs, MongoDB, SQLite"
+        "data":["Python", "Javascript", "ReactJs", "NodeJs", "MongoDB", "SQLite"]
     },
     "langs":[
         {
             "lang":"ReactJs",
             "projs":[
-                "Trabajé como desarrollador en un equipo freelance para un e-commerce, diseñando y desarrollando una pagina web responsive (actualmente no disponible).",
-                "He desarrollado un front-end responsive para un e-commerce ficticio como parte del trabajo final de mi curso de ReactJS."
-            ]
-        },
-        {
-            "lang":"Python",
-            "projs":[
-                "He desarrollado aplicaciones de escritorio para manipular y automatizar tareas de documentación en mi entorno laboral.",
-                "He creado un servidor FLASK para guardar firmas de usuario para documentación.",
-                "He desarrollado herramientas de escritorio para comunicacion con diferentes dispositivos a traves de protocolo UART con propósitos de configuración.",
-                "Construcción de una aplicacion de escritorio para ejecutar programas definidos por usuarios en una maquina de descarga de baterias."
-            ]
-        },
-        {
-            "lang":"JavaScript",
-            "projs":[
-                "Desarrollo de una extensión para chrome que optimiza la firma de documentos y ayuda en la organización de los mismos."
+                {
+                    "title":"Cachito's Bakery",
+                    "descr":"Como parte del trabajo final de mi curso de ReactJS, trabajé como desarrollador en un equipo freelance para un e-commerce, diseñando y desarrollando una pagina web responsive (actualmente no disponible)."
+                }
             ]
         },
         {
             "lang":"Full-stack",
             "projs":[
-                "Diseño y desarrollo de una plataforma Full-Stack para control de dispositivos IOT, incluyendo registro de usuarios y mensajeria MQTT - Desarrollado de manera independiente como proyecto autoiniciado, usando tecnologias como ReactJS (Frontend), NodeJS (Backend) y MongoDB (Base de datos)."
+                {
+                    "title":"Productividad",
+                    "descr":"He desarrollado aplicaciones de escritorio para manipular y automatizar tareas en mi entorno laboral. Cuenta con un servidor FLASK para guardar firmas de usuario para documentación y carga de información en una base de datos SQL, a su vez, una extension del browser (JavaScript), hace las veces de front-end para guardar la información de un server externo."
+                },
+                {
+                    "title":"Plataforma IoT",
+                    "descr":"Diseño y desarrollo de una plataforma Full-Stack para control de dispositivos IOT, incluyendo registro de usuarios y mensajeria MQTT - Desarrollado de manera independiente como parte de producto comercial, usando tecnologías como ReactJS (Frontend), NodeJS (Backend) y MongoDB (Base de datos), actualmente se esta migrando a una base de datos SQL."
+                }
             ]
-        },{
-            "lang":"Nota",
+        },
+        {
+            "lang":"Python",
             "projs":[
                 {
-                    "nota":"Este texto fue generado como parte de un proyecto personal de Backend, utilizando NodeJS para la gestión de archivos y handlebars como motor de plantillas para renderizado, link: ",
-                    "link":"https://github.com/Ing-ed/Resume.git"
+                    "title":"Descargador de baterías de litio",
+                    "descr":"Construcción de una aplicacion de escritorio para ejecutar programas definidos por usuarios en una maquina de descarga de baterias utilizando el protocolo UART para comunicarse con el dispositivo electrónico."
                 }
             ]
         }

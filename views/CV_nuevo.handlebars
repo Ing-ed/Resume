@@ -12,7 +12,7 @@
             </div>
             <div id="tel" class="dataContact">
                 <img src="../iconos/whatsapp.png" alt="">
-                <p><a href="https://wa.me/+5492664006000">+549266400600</a></p>
+                <p><a href="https://wa.me/+5492664006000">+5492664006000</a></p>
             </div>
             <div id="linkedin" class="dataContact">
                 <img src="../iconos/linkedin.png" alt="">
@@ -35,6 +35,11 @@
         <i>{{prof.date}}</i>
         <p>{{prof.descr}}</p>
         <h4>{{prof.tech.title}}</h4>
+        <ul id="techs">
+        {{#each prof.tech.data}}
+            <li>{{this}}</li>
+        {{/each}}
+        </ul>
         <div class="listas">
         {{#each prof.langs}}
             <p><strong>{{this.lang}}</strong></p>
@@ -43,7 +48,10 @@
                     {{#if this.nota}}
                     <li>{{this.nota}} <a href={{this.link}}>{{this.link}}</a> </li>
                     {{else}}
-                    <li>{{this}}</li>
+                    <li>
+                        <p><b>{{this.title}}</b></p>
+                        <p>{{this.descr}}</p>
+                    </li>
                     {{/if}}
                 {{/each}}
             </ul>
@@ -68,7 +76,6 @@
             <br>
         {{/each}}
         
-        <br>
     </div>
     <div id="background" class="section">
         <h3>{{background.title}}</h3>
