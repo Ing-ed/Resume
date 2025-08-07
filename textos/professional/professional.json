@@ -10,7 +10,7 @@
         {
             "lang":"ReactJs",
             "projs":[
-                "Trabaje como desarrollador en un equipo freelance para un e-commerce, diseñando y desarrollando una pagina web responsive (actualmente no disponible)",
+                "Trabajé como desarrollador en un equipo freelance para un e-commerce, diseñando y desarrollando una pagina web responsive (actualmente no disponible).",
                 "He desarrollado un front-end responsive para un e-commerce ficticio como parte del trabajo final de mi curso de ReactJS."
             ]
         },
@@ -19,7 +19,7 @@
             "projs":[
                 "He desarrollado aplicaciones de escritorio para manipular y automatizar tareas de documentación en mi entorno laboral.",
                 "He creado un servidor FLASK para guardar firmas de usuario para documentación.",
-                "He desarrollado herramientas de escritorio para comunicacion con diferentes dispositivos a traves de protocolo UART con propositos de configuración",
+                "He desarrollado herramientas de escritorio para comunicacion con diferentes dispositivos a traves de protocolo UART con propósitos de configuración.",
                 "Construcción de una aplicacion de escritorio para ejecutar programas definidos por usuarios en una maquina de descarga de baterias."
             ]
         },
@@ -32,13 +32,13 @@
         {
             "lang":"Full-stack",
             "projs":[
-                "Diseño y desarrollo de una plataforma Full-Stack para control de dispositivos IOT, incluyendo registro de usuarios y mensajeria MQTT - Desarrollado de manera independiente como proyecto autoiniciado, usando tecnologias como ReactJS (Frontend), NodeJS (Backend) y MongoDB (Base de datos)"
+                "Diseño y desarrollo de una plataforma Full-Stack para control de dispositivos IOT, incluyendo registro de usuarios y mensajeria MQTT - Desarrollado de manera independiente como proyecto autoiniciado, usando tecnologias como ReactJS (Frontend), NodeJS (Backend) y MongoDB (Base de datos)."
             ]
         },{
             "lang":"Nota",
             "projs":[
                 {
-                    "nota":"Este texto fue generado como parte de un proyecto personal de Backend, utilizando NodeJS para la gestion de archivos y handlebars como motor de plantillas para renderizado, link: ",
+                    "nota":"Este texto fue generado como parte de un proyecto personal de Backend, utilizando NodeJS para la gestión de archivos y handlebars como motor de plantillas para renderizado, link: ",
                     "link":"https://github.com/Ing-ed/Resume.git"
                 }
             ]

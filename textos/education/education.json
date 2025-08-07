@@ -7,11 +7,11 @@
             "date":"2007 - 2019",
             "stablish":"Universidad Nacional de San Luis",
             "knows":[
-                "Pensamiento logico.",
+                "Pensamiento lógico.",
                 "Resolución de problemas.",
                 "Sistemas embebidos (C, C++)",
                 "Protocolos de comunicación (UART, I2C, SPI, CAN, Ethernet, WiFi)",
-                "Diseño de hardware (Altium designer, KiCad)"
+                "Diseño de hardware (Altium Designer, KiCad)"
             ]
         },
         {
@@ -22,8 +22,8 @@
                 "ReactJS",
                 "Routing & navigation",
                 "Events, Hooks, Context",
-                "React-native, git, github",
-                "git, github"
+                "React-native, git, GitHub",
+                "git, GitHub"
             ]
         },
         {
@@ -36,7 +36,7 @@
                 "Motores de plantillas (Handlebars)",
                 "Websockets, MongoDB",
                 "Cookies, sessions, storage, authorisation, authentication, JWT",
-                "git, github"
+                "Git, GitHub"
             ]
         },
         {
