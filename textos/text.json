@@ -1,0 +1,268 @@
+{
+    "spanish": {
+        "about":{
+
+                "title":"Sobre mi",
+                "descr": 
+                {
+                    "fullstack":"Desarrollador Full-Stack con formación en Ingeniería Electrónica y experiencia como freelance en desarrollo de soluciones web. Apasionado por la programación, disfruto creando herramientas para la automatización de procesos, cuento con proyectos propios en ReactJS, NodeJS, MongoDB y SQL. Me adapto fácilmente a nuevas tecnologías.",
+                    "engigeer":"Soy Ingeniero Electrónico con orientación en sistemas digitales y me apasiona la búsqueda de soluciones y la programación. Disfruto aprendiendo nuevas tecnologías y aplicando mis conocimientos para mejorar mi productividad en diferentes entornos laborales. Me adapto e integro rápidamente en equipos de trabajo."
+                }
+            },
+            "presentation":{
+                "name":"Emiliano Dovichi",
+                "titles":{
+                    "fullstack":"Desarrollador Full-Stack | Ingeniero Electrónico | Freelance",
+                    "engineer":"Ingeniero Electrónico | Desarrollador Full-Stack | Freelance"
+                }
+            },
+        "professional": {
+            "title": "Experiencia profesional.",
+            "descr": "Como desarrollador freelancer, he utilizado diferentes tecnologias que me permitieron potenciar mis capacidades en mis distintos entornos profesionales.\n Entre mis proyectos se destacan los siguientes.",
+            "date": "2021 - presente.",
+            "tech": {
+                "title": "Tecnologias:",
+                "data": [
+                    "Python",
+                    "Javascript",
+                    "ReactJs",
+                    "NodeJs",
+                    "MongoDB",
+                    "SQLite"
+                ]
+            },
+            "langs": [
+                {
+                    "lang": "ReactJs.",
+                    "projs": [
+                        {
+                            "title": "Cachito's Bakery.",
+                            "descr": "Como parte del trabajo final de mi curso de ReactJS, trabajé como desarrollador en un equipo freelance para un e-commerce, diseñando y desarrollando una pagina web responsive (actualmente no disponible)."
+                        }
+                    ]
+                },
+                {
+                    "lang": "Full-stack.",
+                    "projs": [
+                        {
+                            "title": "Productividad.",
+                            "descr": "He desarrollado aplicaciones de escritorio para gestionar y automatizar tareas en mi entorno de trabajo. Cuenta con un servidor FLASK para guardar las firmas de los usuarios, un lienzo para la captura de firmas y una extensión web para navegadores (JavaScript) que actúa como front-end para guardar la información de un servidor externo."
+                        },
+                        {
+                            "title": "Plataforma IoT.",
+                            "descr": "Diseño y desarrollo de una plataforma Full-Stack para control de dispositivos IOT, incluyendo registro de usuarios y mensajeria MQTT - Desarrollado de manera independiente como parte de producto comercial, usando tecnologías como ReactJS (Frontend), NodeJS (Back-End) y MongoDB (Base de datos), actualmente se esta migrando a una base de datos SQL."
+                        }
+                    ]
+                },
+                {
+                    "lang": "Python.",
+                    "projs": [
+                        {
+                            "title": "Descargador de baterías de litio.",
+                            "descr": "Desarrollo de una aplicacion de escritorio para ejecutar programas definidos por usuarios en una maquina de descarga de baterias utilizando el protocolo UART para comunicarse con el dispositivo electrónico."
+                        }
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "title": "Educación.",
+            "relevant": "Conocimientos relevantes.",
+            "eds": [
+                {
+                    "title": "Ingeniero Electrónico con Orientación en Sistemas Digitales (finalizado).",
+                    "date": "2007 - 2019",
+                    "stablish": "Universidad Nacional de San Luis.",
+                    "knows": [
+                        "Pensamiento lógico.",
+                        "Resolución de problemas.",
+                        "Sistemas embebidos (C, C++).",
+                        "Protocolos de comunicación (UART, I2C, SPI, CAN, Ethernet, WiFi).",
+                        "Diseño de hardware (Altium Designer, KiCad)."
+                    ]
+                },
+                {
+                    "title": "Desarrollo Front-end, ReactJS, Coderhouse.",
+                    "date": "02/2023 - 04/2023",
+                    "knows": [
+                        "JavaScript, HTML, CSS.",
+                        "ReactJS.",
+                        "Routing & navigation.",
+                        "Events, Hooks, Context.",
+                        "React-native, git, GitHub.",
+                        "git, GitHub."
+                    ]
+                },
+                {
+                    "title": "Desarrollo Back-end, Coderhouse.",
+                    "date": "08/2023 - 03/2024",
+                    "knows": [
+                        "Administrador de paquetes NPM.",
+                        "Express, Router.",
+                        "Motores de plantillas (Handlebars).",
+                        "Websockets, MongoDB.",
+                        "Cookies, sessions, storage, authorisation, authentication, JWT.",
+                        "Git, GitHub."
+                    ]
+                },
+                {
+                    "title": "Languajes.",
+                    "knows": [
+                        "Español: Nativo.",
+                        "Ingles: Nivel intermedio, ingles técnico (actualmente estudiando)."
+                    ]
+                }
+            ]
+        },
+        "background": {
+            "title": "Experiencia complementaria.",
+            "jobs": [
+                {
+                    "title": "Cientifica San Luis S.A.",
+                    "date": "2023 - presente",
+                    "descr": "Mi actual trabajo, mis responsabilidades incluyen el mantenimiento preventivo y correctivo de equipamiento de laboratorio clinico, manejo de instrumentos de medición, colaboración interdisciplinaria con bioquimicos y profesionales medicos, comunicaciones en ingles con proveedores internacionales."
+                },
+                {
+                    "title": "Coradir S.A.",
+                    "date": "2021 - 2023",
+                    "descr": "En área investigación y desarrollo, contribuyendo al desarrollo de hardware y software, entre las actividades se destacan, programación en bajo nivel (C, C++), Desarrollo de aplicaciones de escritorio (Python), manejo de instrumentos de medición (multímetro, osciloscopio, fuentes de laboratorio, cargas electrónicas, etc) y diseño y modelado 3D usando software de diseño paramétrico (Solidworks, Fusion360)."
+                },
+                {
+                    "title": "Laboratorios Biofarma S.A.",
+                    "date": "2020 - 2021",
+                    "descr": "En éste trabajo me desenvolví realizando tareas de mantenimiento preventivo y correctivo de equipamiento de laboratorio clinico, usando distintos instrumentos de medicion y trabajando en un entorno de trabajo multidisciplinario."
+                }
+            ]
+        }
+    },
+    "english": {
+        "about":
+        {
+            "title":"About me",
+            "descr":
+            {
+
+                "fullstack":"I'm a freelance full-stack developer solution-oriented and passionate about programming, so I constantly enjoy learning new technologies to improve my work, and have experience building web tools and automation systems to streamline workflows. My curiosity given to me to learn abour defferet topics like videogame developing, I've been developed a few games using different tools like Unity Engine and Blender.",
+                "engigeer":"I'm Electronics Engineer with digital systems orientation, passionate for finding solutions and programming. I enjoy learning new technologies and applying my knowledges to improve my productivity under my different work environements. I can adapt and integrate quickly into work teams."
+            }
+        },
+        "presentation":{
+            "name":"Emiliano Dovichi",
+            "titles":{
+                "fullstack":"Full-Stack Developer | Electronic Engineer | Freelance",
+                "engineer":"Electronics Engineer | Full-Stack Developer | Freelance"
+            }
+        },
+        "professional": {
+            "title": "Professional experience.",
+            "descr": "as freelance developer, I have used various technologies that have allowed me enhance my capabilities through my different professional environements.",
+            "date": "2021 - present",
+            "tech": {
+                "title": "technologies:",
+                "data": [
+                    "Python",
+                    "Javascript",
+                    "ReactJs",
+                    "NodeJs",
+                    "MongoDB",
+                    "SQLite"
+                    ]
+            },
+            "langs": [
+                {
+                    "lang": "ReactJs",
+                    "projs": [
+                        {
+                            "title": "Cachito's Bakery.",
+                            "descr": "As part of my final work of my ReactJS course, I worked as developer on a freelance team for an e-commerce, designing and developing a responsive web page."
+                        }
+                    ]
+                },
+                {
+                    "lang": "Full-stack",
+                    "projs": [
+                        {
+                            "title": "Productivity.",
+                            "descr": "I've been developed desktop applications for managing and automate tasks on my work environement. It has a FLASK server for save user signatures, a canvas for signature capture and a browser web extension (JavaScript) that acts as Front-End for save the information of an external server."
+                        },
+                        {
+                            "title": "IoT platform.",
+                            "descr": "Design and developing of a Full-Stack platform for IoT device control, including user register and MQTT messenger - Developed indepenently as part of a commertial product, using technologies like ReactJS (Front-End), NodeJS (Back-End) and MongoDB (Database), currently migrating to a SQL database." 
+                        }
+                    ]
+                },
+                {
+                    "lang": "Python",
+                    "projs": [
+                        {
+                            "title": "Lithium battery discharger.",
+                            "descr": "Develop of a desktop application for execute user defined programs on a lithium battery discharger using UART protocol for communicate with the electronic device."
+                        }
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "title": "Education",
+            "relevant": "Relevant knoledges",
+            "eds": [
+                {
+                    "title": "Electronics Engineer with orientation to digital systems (Finished)",
+                    "date": "2007 - 2019",
+                    "stablish": "Universidad Nacional de San Luis",
+                    "knows": [
+                        "Logical thinking.",
+                        "problems solving.",
+                        "Embebed systems (C, C++)",
+                        "Comunication protocols (UART, I2C, SPI, CAN, Ethernet, WiFi)",
+                        "Hardware design (Altium designer, KiCad)"
+                    ]
+                },
+                {
+                    "title": "ReactJS developer, Coderhouse",
+                    "date": "02/2023 - 04/2023",
+                    "knows": [
+                        "JavaScript, HTML, CSS",
+                        "ReactJS",
+                        "Routing & navigation",
+                        "Events, Hooks, Context",
+                        "React-native, git, github"
+                    ]
+                },
+                {
+                    "title": "Backend developer (Unfinished)",
+                    "date": "08/2023 - 03/2024",
+                    "knows": [
+                        "File management",
+                        "NPM package management",
+                        "Express, Router",
+                        "Template engines (Handlebars)",
+                        "Websockets, MongoDB",
+                        "Cookies, sessions, storage, authorisation, authentication, JWT",
+                        "git, github"
+                    ]
+                }
+            ]
+        },
+        "background": {
+            "title": "Other jobs",
+            "jobs": [
+                {
+                    "title": "Cientifica San Luis S.A",
+                    "date": "2023 - present",
+                    "descr": "This is my actual job. I'm responsible for preventive and corrective maintenance of clinical laboratory equipament. Duties include the use of measurement instruments, interdisciplinary collaboration with biochemists and medical professional. Regular communication en english with international suppliers."
+                },
+                {
+                    "title": "Coradir S.A",
+                    "date": "2021 - 2023",
+                    "descr": "Worked in the Research and Development area, contributing to hardware and software development. My resposabilities included low-level programming (C, C++) also desktop tools for final users, operation of measurement instruments (multimeter, osciloscope, lab power supply, electronic loads, etc.) I realize 3D part design using parametric CAD software (Solidworks, Fusion360)."
+                },
+                {
+                    "title": "Laboratorios Biofarma S.A",
+                    "date": "2020 - 2021",
+                    "descr": "In this Job, my main task was to perform preventive and corrective maintenance on clinical laboratory equipament. I used diverse measurements instruments and worked as part of a multidisciplinary team"
+                }
+            ]
+        }
+    }
+}

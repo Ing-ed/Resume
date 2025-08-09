@@ -2,13 +2,13 @@
     <header>
         <div id="presentation">
             <img src="../fotos/fotoCV2.jpg" alt="">
-            <h1>Emiliano Dovichi</h1>
-            <h3>Desarrollador Full-Stack | Ingeniero Electronico | freelance</h3>
+            <h1>{{presentation.name}}</h1>
+            <h3>{{presentation.titles.fullstack}}</h3>
         </div>
         <div id="contacto">
             <div id="correo" class="dataContact">
                 <img src="../iconos/correo-electronico.png" alt="">
-                <p><a href="https://mail.google.com/mail/?view=cm&to=emidovichi@gmail.com">emidovichi@gmail.com</a></p>
+                <p><a href="https://mail.google.com/mail/?view=cm&to=emidovichi@gmail.com&su=Hello,%20I%20saw%20your%20resume">emidovichi@gmail.com</a></p>
             </div>
             <div id="tel" class="dataContact">
                 <img src="../iconos/whatsapp.png" alt="">
@@ -25,9 +25,9 @@
         </div>
     </header>
     <div id="abstract" class="section">
-        <h3>Sobre mi</h3>
+        <h3>{{about.title}}</h3>
         <hr class="vhr">
-        <p>{{about}}</p>
+        <p>{{about.descr.fullstack}}</p>
     </div>
     <div id="experience" class="section">
         <h3>{{prof.title}}</h3>
