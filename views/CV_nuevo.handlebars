@@ -27,67 +27,108 @@
     <div id="abstract" class="section">
         <h3>{{about.title}}</h3>
         <hr class="vhr">
+        {{#if clase}}
+        <p>{{about.descr.engineer}}</p>
+        {{else}}
         <p>{{about.descr.fullstack}}</p>
+        {{/if}}
     </div>
-    <div id="experience" class="section">
-        <h3>{{prof.title}}</h3>
-        <hr>
-        <i>{{prof.date}}</i>
-        <p>{{prof.descr}}</p>
-        <h4>{{prof.tech.title}}</h4>
-        <ul id="techs">
-        {{#each prof.tech.data}}
-            <li>{{this}}</li>
-        {{/each}}
-        </ul>
-        <div class="listas">
-        {{#each prof.langs}}
-            <p><strong>{{this.lang}}</strong></p>
-            <ul>
-                {{#each this.projs}}
-                    {{#if this.nota}}
-                    <li>{{this.nota}} <a href={{this.link}}>{{this.link}}</a> </li>
-                    {{else}}
-                    <li>
-                        <p><b>{{this.title}}</b></p>
-                        <p>{{this.descr}}</p>
-                    </li>
-                    {{/if}}
-                {{/each}}
-            </ul>
-        {{/each}}
-        </div>
-    </div>
-    {{!-- <div id="tecnologies" class="section"></div> --}}
-    <div id="education" class="section">
-        <h3>{{education.title}}</h3>
-        {{!-- <p>{{education.relevant}}</p> --}}
-        <hr>
-        {{#each education.eds}}
-            <p><strong>{{this.title}}</strong></p>
-            <p><i>{{this.date}}</i></p>
-            <p>{{this.stablish}}</p>
-            <p>{{education.relevant}}</p>
-            <ul>
-                {{#each this.knows}}
-                    <li>{{this}}</li>
-                {{/each}}
-            </ul>
-            <br>
-        {{/each}}
-        
-    </div>
-    <div id="background" class="section">
-        <h3>{{background.title}}</h3>
-        <hr>
-        <div id="jobs">
-            {{#each background.jobs}}
-                <div>
-                    <p><strong>{{this.title}}</strong></p>
-                    <p><i>{{this.date}}</i></p>
-                    <p>{{this.descr}}</p>
-                </div>
+    <div id="exps">
+        <div id="experience" class="section">
+            {{#if clase}}
+            <h3 id="clase" name={{clase}}>{{prof.title.engineer}}</h3>
+            {{else}}
+            <h3 id="clase" name={{clase}}>{{prof.title.fullstack}}</h3>
+            {{/if}}
+            <hr>
+            <i>{{prof.date}}</i>
+            <p>{{prof.descr}}</p>
+            <h4>{{prof.tech.title}}</h4>
+            <ul id="techs">
+            {{#each prof.tech.data}}
+                <li>{{this}}</li>
             {{/each}}
+            </ul>
+            <div class="listas">
+            {{#each prof.langs}}
+                <p><strong>{{this.lang}}</strong></p>
+                <ul>
+                    {{#each this.projs}}
+                        {{#if this.nota}}
+                        <li>{{this.nota}} <a href={{this.link}}>{{this.link}}</a> </li>
+                        {{else}}
+                        <li>
+                            <p><b>{{this.title}}</b></p>
+                            <p>{{this.descr}}</p>
+                        </li>
+                        {{/if}}
+                    {{/each}}
+                </ul>
+            {{/each}}
+            </div>
+        </div>
+        <div id="skills" class="section">
+            <h3>{{skills.title}}</h3>
+            <hr>
+            <ul>
+            {{#if clase}}
+                {{#each skills.engineer}}
+                <p><b>{{this.title}}</b></p>
+                <li>
+                    <p>{{this.descr}}</p>
+                </li>
+                {{/each}}
+            {{else}}
+                {{#each skills.fullstack}}
+                <p><b>{{this.title}}</b></p>
+                <li>
+                    <p>{{this.descr}}</p>
+                </li>
+                {{/each}}
+            {{/if}}
+            </ul>
+        </div>
+        {{!-- <div id="tecnologies" class="section"></div> --}}
+        <div id="education" class="section">
+            <h3>{{education.title}}</h3>
+            {{!-- <p>{{education.relevant}}</p> --}}
+            <hr>
+            {{#each education.eds}}
+                <p><strong>{{this.title}}</strong></p>
+                <p><i>{{this.date}}</i></p>
+                <p>{{this.stablish}}</p>
+                <p>{{education.relevant}}</p>
+                <ul>
+                    {{#each this.knows}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+                <br>
+            {{/each}}
+            
+        </div>
+        <div id="background" class="section">
+            {{#if clase}}
+            <h3>{{background.title.engineer}}</h3>
+            {{else}}
+            <h3>{{background.title.fullstack}}</h3>
+            {{/if}}
+            <hr>
+            <div id="jobs">
+                {{#each background.jobs}}
+                    <div>
+                        <p><strong>{{this.title}}</strong></p>
+                        <p><i>{{this.date}}</i></p>
+                        <p>{{this.descr}}</p>
+                    </div>
+                {{/each}}
+            </div>
         </div>
     </div>
 </div>
+<script>
+    clase = document.getElementById("clase").getAttribute('name')
+    if(clase === 'true'){
+        document.getElementById('exps').style.flexDirection = 'column-reverse'
+    }
+</script>

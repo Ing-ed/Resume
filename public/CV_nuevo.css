@@ -73,6 +73,10 @@ header #contacto .dataContact{
 }
 
 /* Section */
+#exps{
+    display: flex;
+    flex-direction: column;
+}
 
 .section{
     padding-left: 2em;

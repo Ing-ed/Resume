@@ -6,7 +6,7 @@
                 "descr": 
                 {
                     "fullstack":"Desarrollador Full-Stack con formación en Ingeniería Electrónica y experiencia como freelance en desarrollo de soluciones web. Apasionado por la programación, disfruto creando herramientas para la automatización de procesos, cuento con proyectos propios en ReactJS, NodeJS, MongoDB y SQL. Me adapto fácilmente a nuevas tecnologías.",
-                    "engigeer":"Soy Ingeniero Electrónico con orientación en sistemas digitales y me apasiona la búsqueda de soluciones y la programación. Disfruto aprendiendo nuevas tecnologías y aplicando mis conocimientos para mejorar mi productividad en diferentes entornos laborales. Me adapto e integro rápidamente en equipos de trabajo."
+                    "engineer":"Soy Ingeniero Electrónico con orientación en sistemas digitales y me apasiona la búsqueda de soluciones y la programación. Disfruto aprendiendo nuevas tecnologías y aplicando mis conocimientos para mejorar mi productividad en diferentes entornos laborales. Me adapto e integro rápidamente en equipos de trabajo."
                 }
             },
             "presentation":{
@@ -17,7 +17,10 @@
                 }
             },
         "professional": {
-            "title": "Experiencia profesional.",
+            "title":{
+                "fullstack":"Experiencia profesional.",
+                "engineer":"Experiencia complementaria."
+            },
             "descr": "Como desarrollador freelancer, he utilizado diferentes tecnologias que me permitieron potenciar mis capacidades en mis distintos entornos profesionales.\n Entre mis proyectos se destacan los siguientes.",
             "date": "2021 - presente.",
             "tech": {
@@ -25,15 +28,15 @@
                 "data": [
                     "Python",
                     "Javascript",
-                    "ReactJs",
-                    "NodeJs",
+                    "ReactJS",
+                    "NodeJS",
                     "MongoDB",
                     "SQLite"
                 ]
             },
             "langs": [
                 {
-                    "lang": "ReactJs.",
+                    "lang": "ReactJS.",
                     "projs": [
                         {
                             "title": "Cachito's Bakery.",
@@ -65,44 +68,73 @@
                 }
             ]
         },
+        "skills":{
+            "title":"Habilidades",
+            "fullstack":{
+                "skills":[
+                    {
+                        "title":"Lenguajes de programación",
+                        "descr":"JavaScript, CSS, HTML, Python, C#, C++, C"
+                    },
+                    {
+                        "title":"Frameworks y librerías",
+                        "descr":"ReactJS, React Native, NodeJS, Express, Handlebars, Flask"
+                    },
+                    {
+                        "title":"Bases de datos",
+                        "descr":"MongoDB, SQLite, SQL"
+                    },
+                    {
+                        "title":"Herramientas y software",
+                        "descr":"Git, GitHub, NPM, API REST, WebSockets, JWT, Postman"
+                    }
+                ]
+            },
+            "engineer":{
+                "skills":[
+                    {
+                        "title":"Protocolos de comunicación",
+                        "descr":"UART, I2C, SPI, CAN, Ehternet, WiFi, Bluetooth"
+                    },
+                    {
+                        "title":"Diseño de hardware",
+                        "descr":"Altium Designer, KiCad, Proteus"
+                    },
+                    {
+                        "title":"Lenguajes de programación",
+                        "descr":"C, C++, Python, C#, JavaScript, HTML, CSS"
+                    },
+                    {
+                        "title":"Diseño 3D parametrico",
+                        "descr":"Solidworks, Fusion 360"
+                    }
+                ]
+            }
+        },
         "education": {
             "title": "Educación.",
-            "relevant": "Conocimientos relevantes.",
+            "relevant": "Habilidades relevantes.",
             "eds": [
                 {
                     "title": "Ingeniero Electrónico con Orientación en Sistemas Digitales (finalizado).",
                     "date": "2007 - 2019",
                     "stablish": "Universidad Nacional de San Luis.",
                     "knows": [
-                        "Pensamiento lógico.",
-                        "Resolución de problemas.",
-                        "Sistemas embebidos (C, C++).",
-                        "Protocolos de comunicación (UART, I2C, SPI, CAN, Ethernet, WiFi).",
-                        "Diseño de hardware (Altium Designer, KiCad)."
+                        "Enfoque en el diseño de sistemas embebidos y control"
                     ]
                 },
                 {
                     "title": "Desarrollo Front-end, ReactJS, Coderhouse.",
                     "date": "02/2023 - 04/2023",
                     "knows": [
-                        "JavaScript, HTML, CSS.",
-                        "ReactJS.",
-                        "Routing & navigation.",
-                        "Events, Hooks, Context.",
-                        "React-native, git, GitHub.",
-                        "git, GitHub."
+                        "Desarrollo de Front-End de aplicaciones web basada en componentes"
                     ]
                 },
                 {
                     "title": "Desarrollo Back-end, Coderhouse.",
                     "date": "08/2023 - 03/2024",
                     "knows": [
-                        "Administrador de paquetes NPM.",
-                        "Express, Router.",
-                        "Motores de plantillas (Handlebars).",
-                        "Websockets, MongoDB.",
-                        "Cookies, sessions, storage, authorisation, authentication, JWT.",
-                        "Git, GitHub."
+                        "Desarrollo de arquitectura de Backend con base en servicios."
                     ]
                 },
                 {
@@ -115,7 +147,10 @@
             ]
         },
         "background": {
-            "title": "Experiencia complementaria.",
+            "title":{
+                "fullstack":"Experiencia complementaria.",
+                "engineer":"Experiencia profesional."
+            },
             "jobs": [
                 {
                     "title": "Cientifica San Luis S.A.",
@@ -142,8 +177,8 @@
             "descr":
             {
 
-                "fullstack":"I'm a freelance full-stack developer solution-oriented and passionate about programming, so I constantly enjoy learning new technologies to improve my work, and have experience building web tools and automation systems to streamline workflows. My curiosity given to me to learn abour defferet topics like videogame developing, I've been developed a few games using different tools like Unity Engine and Blender.",
-                "engigeer":"I'm Electronics Engineer with digital systems orientation, passionate for finding solutions and programming. I enjoy learning new technologies and applying my knowledges to improve my productivity under my different work environements. I can adapt and integrate quickly into work teams."
+                "fullstack":"I'm a freelance full-stack developer solution-oriented and passionate about programming, so I constantly enjoy learning new technologies to improve my work, and have experience building web tools and automation systems to streamline workflows. My curiosity given to me to learn about differet topics like videogame developing, I've been developed a few games using different tools like Unity Engine and Blender.",
+                "engineer":"I'm Electronics Engineer with digital systems orientation, passionate for finding solutions and programming. I enjoy learning new technologies and applying my knowledge to improve my productivity under my different work environements. I can adapt and integrate quickly into work teams."
             }
         },
         "presentation":{
@@ -154,7 +189,11 @@
             }
         },
         "professional": {
-            "title": "Professional experience.",
+            "title": 
+            {
+                "fullstack":"Professional experience.",
+                "engineer":"Other jobs"
+            },
             "descr": "as freelance developer, I have used various technologies that have allowed me enhance my capabilities through my different professional environements.",
             "date": "2021 - present",
             "tech": {
@@ -162,15 +201,15 @@
                 "data": [
                     "Python",
                     "Javascript",
-                    "ReactJs",
-                    "NodeJs",
+                    "ReactJS",
+                    "NodeJS",
                     "MongoDB",
                     "SQLite"
                     ]
             },
             "langs": [
                 {
-                    "lang": "ReactJs",
+                    "lang": "ReactJS",
                     "projs": [
                         {
                             "title": "Cachito's Bakery.",
@@ -202,6 +241,45 @@
                 }
             ]
         },
+        "skills":{
+            "title":"Skills",
+            "fullstack":[
+                {
+                    "title":"Programming languages",
+                    "descr":"JavaScript, CSS, HTML, Python, C#, C++, C"
+                },
+                {
+                    "title":"Frameworks and libraries",
+                    "descr":"ReactJS, React Native, NodeJS, Express, Handlebars, Flask"
+                },
+                {
+                    "title":"Databases",
+                    "descr":"MongoDB, SQLite, SQL"
+                },
+                {
+                    "title":"Tools and software",
+                    "descr":"Git, GitHub, NPM, API REST, WebSockets, JWT, Postman"
+                }
+            ],
+            "engineer":[
+                {
+                    "title":"Communication protocols",
+                    "descr":"UART, I2C, SPI, CAN, Ehternet, WiFi, Bluetooth"
+                },
+                {
+                    "title":"Hardware design",
+                    "descr":"Altium Designer, KiCad, Proteus"
+                },
+                {
+                    "title":"Programming languages",
+                    "descr":"C, C++, Python, C#, JavaScript, HTML, CSS"
+                },
+                {
+                    "title":"Parametric 3D design",
+                    "descr":"Solidworks, Fusion 360"
+                }
+            ]
+        },
         "education": {
             "title": "Education",
             "relevant": "Relevant knoledges",
@@ -211,56 +289,46 @@
                     "date": "2007 - 2019",
                     "stablish": "Universidad Nacional de San Luis",
                     "knows": [
-                        "Logical thinking.",
-                        "problems solving.",
-                        "Embebed systems (C, C++)",
-                        "Comunication protocols (UART, I2C, SPI, CAN, Ethernet, WiFi)",
-                        "Hardware design (Altium designer, KiCad)"
+                        "Focussed on embedded system design and control"
                     ]
                 },
                 {
                     "title": "ReactJS developer, Coderhouse",
                     "date": "02/2023 - 04/2023",
                     "knows": [
-                        "JavaScript, HTML, CSS",
-                        "ReactJS",
-                        "Routing & navigation",
-                        "Events, Hooks, Context",
-                        "React-native, git, github"
+                        "Front-End Development of Component-Based Web Applications"
                     ]
                 },
                 {
-                    "title": "Backend developer (Unfinished)",
+                    "title": "Backend developer",
                     "date": "08/2023 - 03/2024",
                     "knows": [
-                        "File management",
-                        "NPM package management",
-                        "Express, Router",
-                        "Template engines (Handlebars)",
-                        "Websockets, MongoDB",
-                        "Cookies, sessions, storage, authorisation, authentication, JWT",
-                        "git, github"
+                        "Development of Back-End architecture based on services."
                     ]
                 }
             ]
         },
         "background": {
-            "title": "Other jobs",
+            "title": 
+            {
+                "fullstack":"Other jobs",
+                "engineer":"Professional experience."
+            },
             "jobs": [
                 {
                     "title": "Cientifica San Luis S.A",
                     "date": "2023 - present",
-                    "descr": "This is my actual job. I'm responsible for preventive and corrective maintenance of clinical laboratory equipament. Duties include the use of measurement instruments, interdisciplinary collaboration with biochemists and medical professional. Regular communication en english with international suppliers."
+                    "descr": "This is my actual job. I'm responsible for preventive and corrective maintenance of clinical laboratory equipment. Duties include the use of measurement instruments, interdisciplinary collaboration with biochemists and medical professional. Regular communication in english with international suppliers."
                 },
                 {
                     "title": "Coradir S.A",
                     "date": "2021 - 2023",
-                    "descr": "Worked in the Research and Development area, contributing to hardware and software development. My resposabilities included low-level programming (C, C++) also desktop tools for final users, operation of measurement instruments (multimeter, osciloscope, lab power supply, electronic loads, etc.) I realize 3D part design using parametric CAD software (Solidworks, Fusion360)."
+                    "descr": "Worked in the Research and Development area, contributing to hardware and software development. My responsibilities included low-level programming (C, C++) also desktop tools for final users, operation of measurement instruments (multimeter, osciloscope, lab power supply, electronic loads, etc.) I realize 3D part design using parametric CAD software (Solidworks, Fusion360)."
                 },
                 {
                     "title": "Laboratorios Biofarma S.A",
                     "date": "2020 - 2021",
-                    "descr": "In this Job, my main task was to perform preventive and corrective maintenance on clinical laboratory equipament. I used diverse measurements instruments and worked as part of a multidisciplinary team"
+                    "descr": "In this Job, my main task was to perform preventive and corrective maintenance on clinical laboratory equipment. I used diverse measurements instruments and worked as part of a multidisciplinary team"
                 }
             ]
         }
