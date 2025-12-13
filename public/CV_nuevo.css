@@ -25,7 +25,13 @@
     gap: 2em;
 }
 .body hr{
-    margin-bottom: 2em;
+    margin-bottom: 0.5em;
+    border: none;
+    height: 0;
+    border-top: 1px solid #006060;    /* rojo oscuro arriba */
+    border-bottom: 1px solid #00A0A0; /* rojo claro abajo */
+    margin: 1em 0;
+    /* border: solid 1px teal; */
     /* box-shadow: 0 0 10px teal; */
 }
 .body a{
@@ -36,7 +42,7 @@
 header{
     display: flex;
     flex-direction: column;
-    gap:2em;
+    gap:0.3em;
     padding: 0 2em;
 }
 header #presentation{
@@ -44,7 +50,7 @@ header #presentation{
     text-align: center;
 }
 header #presentation img{
-    width: 10em;
+    width: 13em;
     border: 1px solid teal;
     border-radius: 50%;
     box-shadow: 0 0 10px teal;
@@ -56,17 +62,21 @@ header #contacto{
 
 }
 header #contacto img{
-    width: 1.5em;
+    width: 1.3em;
 }
 header #contacto .dataContact{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap:1em;
+    gap:0.2em;
 }
 
 /* Section */
+#exps{
+    display: flex;
+    flex-direction: column;
+}
 
 .section{
     padding-left: 2em;
@@ -74,15 +84,30 @@ header #contacto .dataContact{
 }
 .section ul li{
     margin-left: 2em;
+    /* list-style-type: none; */
 }
+.section ul li::marker{
+    color: teal;
+    size: 3em;
+}
+
 .section h3{
     margin-bottom: 0.5em;
 }
 /* listas */
+
+
 .listas{
     display: flex;
     flex-direction: column;
     gap:1em;
+}
+
+#techs{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    
 }
 
  /* Information */
