@@ -123,3 +123,7 @@ header #contacto .dataContact{
     flex-direction: column;
     gap:2em
 }
+
+#education p{
+    white-space: pre-line;
+}

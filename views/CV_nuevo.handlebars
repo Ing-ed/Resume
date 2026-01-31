@@ -3,7 +3,7 @@
         <div id="presentation">
             <img src="../fotos/fotoCV2.jpg" alt="">
             <h1>{{presentation.name}}</h1>
-            <h3>{{presentation.titles.fullstack}}</h3>
+            <h3>{{presentation.titles.engineer}}</h3>
         </div>
         <div id="contacto">
             <div id="correo" class="dataContact">
@@ -67,27 +67,33 @@
             {{/each}}
             </div>
         </div>
+        <br>
         <div id="skills" class="section">
             <h3>{{skills.title}}</h3>
             <hr>
             <ul>
             {{#if clase}}
-                {{#each skills.engineer}}
+                {{#each skills.engineer.skills}}
                 <p><b>{{this.title}}</b></p>
-                <li>
-                    <p>{{this.descr}}</p>
-                </li>
+                <ul>
+                    <li>
+                        <p>{{this.descr}}</p>
+                    </li>
+                </ul>
                 {{/each}}
             {{else}}
-                {{#each skills.fullstack}}
+                {{#each skills.fullstack.skills}}
                 <p><b>{{this.title}}</b></p>
-                <li>
-                    <p>{{this.descr}}</p>
-                </li>
+                <ul>
+                    <li>
+                        <p>{{this.descr}}</p>
+                    </li>
+                </ul>
                 {{/each}}
             {{/if}}
             </ul>
         </div>
+        <br>
         {{!-- <div id="tecnologies" class="section"></div> --}}
         <div id="education" class="section">
             <h3>{{education.title}}</h3>
@@ -105,8 +111,8 @@
                 </ul>
                 <br>
             {{/each}}
-            
         </div>
+        <br>
         <div id="background" class="section">
             {{#if clase}}
             <h3>{{background.title.engineer}}</h3>

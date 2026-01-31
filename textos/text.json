@@ -1,198 +1,195 @@
 {
     "spanish": {
-        "about":{
-
-                "title":"Sobre mi",
-                "descr": 
-                {
-                    "fullstack":"Desarrollador Full-Stack con formación en Ingeniería Electrónica y experiencia como freelance en desarrollo de soluciones web. Apasionado por la programación, disfruto creando herramientas para la automatización de procesos, cuento con proyectos propios en ReactJS, NodeJS, MongoDB y SQL. Me adapto fácilmente a nuevas tecnologías.",
-                    "engineer":"Soy Ingeniero Electrónico con orientación en sistemas digitales y me apasiona la búsqueda de soluciones y la programación. Disfruto aprendiendo nuevas tecnologías y aplicando mis conocimientos para mejorar mi productividad en diferentes entornos laborales. Me adapto e integro rápidamente en equipos de trabajo."
-                }
-            },
-            "presentation":{
-                "name":"Emiliano Dovichi",
-                "titles":{
-                    "fullstack":"Desarrollador Full-Stack | Ingeniero Electrónico | Freelance",
-                    "engineer":"Ingeniero Electrónico | Desarrollador Full-Stack | Freelance"
-                }
-            },
+        "about": {
+            "title": "Sobre mi",
+            "descr": {
+                "fullstack": "Desarrollador Full-Stack con formación en Ingeniería Electrónica y experiencia como freelance en desarrollo de soluciones web. Apasionado por la programación, disfruto creando herramientas para la automatización de procesos, cuento con proyectos propios en ReactJS, NodeJS, MongoDB y SQL. Me adapto fácilmente a nuevas tecnologías.",
+                "engineer": "Ingeniero Electrónico con experiencia en mantenimiento preventivo y correctivo de sistemas electromecánicos y electrónicos, y participación en desarrollo de hardware y software en entornos de I+D. Especializado en diagnóstico de fallas eléctricas, electrónicas, mecánicas e hidráulicas en equipos automáticos. Experiencia en análisis de funcionamiento de sistemas, desarrollo en C/C++ y herramientas de soporte en Python. Perfil analítico, orientado a la resolución de problemas, cumplimiento de procedimientos técnicos y mejora operativa."
+            }
+        },
+        "presentation": {
+            "name": "Emiliano Dovichi",
+            "titles": {
+                "fullstack": "Desarrollador Full-Stack | Ingeniero Electrónico | Freelance",
+                "engineer": "Ingeniero Electrónico | Ingeniería de Campo | Operaciones y Mantenimiento"
+            }
+        },
         "professional": {
-            "title":{
-                "fullstack":"Experiencia profesional.",
-                "engineer":"Experiencia complementaria."
+            "title": {
+                "fullstack": "Experiencia profesional.",
+                "engineer": "Experiencia complementaria."
             },
-            "descr": "Como desarrollador freelancer, he utilizado diferentes tecnologias que me permitieron potenciar mis capacidades en mis distintos entornos profesionales.\n Entre mis proyectos se destacan los siguientes.",
-            "date": "2021 - presente.",
+            "descr": "Desarrollo independiente de soluciones técnicas y herramientas de software orientadas a la optimización de procesos, automatización de tareas y soporte operativo en entornos técnicos.",
+            "date": "2021 - presente",
             "tech": {
-                "title": "Tecnologias:",
+                "title": "Tecnologías:",
                 "data": [
                     "Python",
-                    "Javascript",
-                    "ReactJS",
+                    "JavaScript",
                     "NodeJS",
+                    "ReactJS",
                     "MongoDB",
-                    "SQLite"
+                    "SQLite",
+                    "MQTT"
                 ]
             },
             "langs": [
                 {
-                    "lang": "ReactJS.",
+                    "lang": "Aplicaciones de gestión y productividad",
                     "projs": [
                         {
-                            "title": "Cachito's Bakery.",
-                            "descr": "Como parte del trabajo final de mi curso de ReactJS, trabajé como desarrollador en un equipo freelance para un e-commerce, diseñando y desarrollando una pagina web responsive (actualmente no disponible)."
+                            "title": "Herramientas internas de automatización",
+                            "descr": "Desarrollo de aplicaciones de escritorio y sistemas auxiliares para automatizar tareas operativas, registrar información técnica y mejorar la trazabilidad de procesos. Incluye backend para almacenamiento de datos y front-end para interacción de usuarios."
                         }
                     ]
                 },
                 {
-                    "lang": "Full-stack.",
+                    "lang": "Sistemas de monitoreo y control",
                     "projs": [
                         {
-                            "title": "Productividad.",
-                            "descr": "He desarrollado aplicaciones de escritorio para gestionar y automatizar tareas en mi entorno de trabajo. Cuenta con un servidor FLASK para guardar las firmas de los usuarios, un lienzo para la captura de firmas y una extensión web para navegadores (JavaScript) que actúa como front-end para guardar la información de un servidor externo."
-                        },
-                        {
-                            "title": "Plataforma IoT.",
-                            "descr": "Diseño y desarrollo de una plataforma Full-Stack para control de dispositivos IOT, incluyendo registro de usuarios y mensajeria MQTT - Desarrollado de manera independiente como parte de producto comercial, usando tecnologías como ReactJS (Frontend), NodeJS (Back-End) y MongoDB (Base de datos), actualmente se esta migrando a una base de datos SQL."
+                            "title": "Plataforma de monitoreo y control IoT",
+                            "descr": "Diseño y desarrollo de una plataforma para supervisión y control de dispositivos electrónicos, con gestión de usuarios y comunicación mediante MQTT. Orientado al control operativo, seguimiento de estados y escalabilidad del sistema."
                         }
                     ]
                 },
                 {
-                    "lang": "Python.",
+                    "lang": "Software de soporte técnico",
                     "projs": [
                         {
-                            "title": "Descargador de baterías de litio.",
-                            "descr": "Desarrollo de una aplicacion de escritorio para ejecutar programas definidos por usuarios en una maquina de descarga de baterias utilizando el protocolo UART para comunicarse con el dispositivo electrónico."
+                            "title": "Herramientas de interacción con equipamiento electrónico",
+                            "descr": "Desarrollo de software para comunicación con dispositivos electrónicos mediante protocolo UART, permitiendo la ejecución de rutinas definidas por el usuario y el control de procesos técnicos específicos."
                         }
                     ]
                 }
             ]
         },
-        "skills":{
-            "title":"Habilidades",
-            "fullstack":{
-                "skills":[
+        "skills": {
+            "title": "Habilidades",
+            "fullstack": {
+                "skills": [
                     {
-                        "title":"Lenguajes de programación",
-                        "descr":"JavaScript, CSS, HTML, Python, C#, C++, C"
+                        "title": "Lenguajes de programación",
+                        "descr": "JavaScript, CSS, HTML, Python, C#, C++, C"
                     },
                     {
-                        "title":"Frameworks y librerías",
-                        "descr":"ReactJS, React Native, NodeJS, Express, Handlebars, Flask"
+                        "title": "Frameworks y librerías",
+                        "descr": "ReactJS, React Native, NodeJS, Express, Handlebars, Flask"
                     },
                     {
-                        "title":"Bases de datos",
-                        "descr":"MongoDB, SQLite, SQL"
+                        "title": "Bases de datos",
+                        "descr": "MongoDB, SQLite, SQL"
                     },
                     {
-                        "title":"Herramientas y software",
-                        "descr":"Git, GitHub, NPM, API REST, WebSockets, JWT, Postman"
+                        "title": "Herramientas y software",
+                        "descr": "Git, GitHub, NPM, API REST, WebSockets, JWT, Postman"
                     }
                 ]
             },
-            "engineer":{
-                "skills":[
+            "engineer": {
+                "skills": [
                     {
-                        "title":"Protocolos de comunicación",
-                        "descr":"UART, I2C, SPI, CAN, Ehternet, WiFi, Bluetooth"
+                        "title": "Mantenimiento de equipamiento automatizado",
+                        "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico automatizado (química clínica, inmunología, hematología, bacteriología y uroanálisis)"
                     },
                     {
-                        "title":"Diseño de hardware",
-                        "descr":"Altium Designer, KiCad, Proteus"
+                        "title": "Diagnóstico técnico integral",
+                        "descr": "Diagnóstico y resolución de fallas electrónicas, mecánicas e hidráulicas en equipos complejos, incluyendo detección de fugas, desgaste de componentes, fallas de motores y desalineaciones mecánicas"
                     },
                     {
-                        "title":"Lenguajes de programación",
-                        "descr":"C, C++, Python, C#, JavaScript, HTML, CSS"
+                        "title": "Análisis funcional de sistemas",
+                        "descr": "Análisis del funcionamiento integral de equipos y comprensión de los principios físicos aplicados para la identificación de fallas"
                     },
                     {
-                        "title":"Diseño 3D parametrico",
-                        "descr":"Solidworks, Fusion 360"
+                        "title": "Protocolos de comunicación",
+                        "descr": "UART, I2C, SPI, CAN, Ethernet, WiFi, Bluetooth"
+                    },
+                    {
+                        "title": "Diseño de hardware electrónico",
+                        "descr": "Diseño de PCB y esquemáticos con Altium Designer, KiCad y Proteus"
+                    },
+                    {
+                        "title": "Lenguajes de programación",
+                        "descr": "C, C++, Python, C#, JavaScript (HTML, CSS)"
+                    },
+                    {
+                        "title": "Diseño mecánico 3D paramétrico",
+                        "descr": "Modelado y diseño de piezas mecánicas con SolidWorks y Fusion 360"
+                    },
+                    {
+                        "title": "Trabajo interdisciplinario",
+                        "descr": "Trabajo coordinado con bioquímicos, personal médico y equipos técnicos. Comunicación técnica en inglés con proveedores y fabricantes"
                     }
                 ]
             }
         },
         "education": {
             "title": "Educación.",
-            "relevant": "Habilidades relevantes.",
+            "relevant": "Formación y competencias clave.",
             "eds": [
                 {
-                    "title": "Ingeniero Electrónico con Orientación en Sistemas Digitales (finalizado).",
+                    "title": "Ingeniero Electrónico con Orientación en Sistemas Digitales (título finalizado).",
                     "date": "2007 - 2019",
-                    "stablish": "Universidad Nacional de San Luis.",
+                    "stablish": "Universidad Nacional de San Luis\nEnfoque en:",
                     "knows": [
-                        "Enfoque en el diseño de sistemas embebidos y control"
+                        "Diseño y análisis de sistemas electrónicos",
+                        "Sistemas embebidos y microcontroladores",
+                        "Electrónica digital y analógica",
+                        "Control y automatización"
                     ]
                 },
+                
                 {
-                    "title": "Desarrollo Front-end, ReactJS, Coderhouse.",
-                    "date": "02/2023 - 04/2023",
+                    "title": "Idiomas",
                     "knows": [
-                        "Desarrollo de Front-End de aplicaciones web basada en componentes"
-                    ]
-                },
-                {
-                    "title": "Desarrollo Back-end, Coderhouse.",
-                    "date": "08/2023 - 03/2024",
-                    "knows": [
-                        "Desarrollo de arquitectura de Backend con base en servicios."
-                    ]
-                },
-                {
-                    "title": "Languajes.",
-                    "knows": [
-                        "Español: Nativo.",
-                        "Ingles: Nivel intermedio, ingles técnico (actualmente estudiando)."
+                        "Español: Nativo",
+                        "Inglés: Nivel intermedio. Lectura y comunicación técnica con fabricantes y documentación"
                     ]
                 }
             ]
         },
         "background": {
-            "title":{
-                "fullstack":"Experiencia complementaria.",
-                "engineer":"Experiencia profesional."
+            "title": {
+                "fullstack": "Experiencia complementaria.",
+                "engineer": "Experiencia profesional."
             },
             "jobs": [
                 {
-                    "title": "Cientifica San Luis S.A.",
-                    "date": "2023 - presente",
-                    "descr": "Mi actual trabajo, mis responsabilidades incluyen el mantenimiento preventivo y correctivo de equipamiento de laboratorio clinico, manejo de instrumentos de medición, colaboración interdisciplinaria con bioquimicos y profesionales medicos, comunicaciones en ingles con proveedores internacionales."
+                    "title": "Científica San Luis S.A. – Ingeniero de Servicio Técnico",
+                    "date": "2023 - Presente",
+                    "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico automatizado (química clínica, inmunología, endocrinología, bacteriología, uroanálisis y hematología). Diagnóstico de fallas electrónicas, mecánicas e hidráulicas, incluyendo detección de fugas, desgaste de componentes, fallas de motores y desalineaciones mecánicas. Análisis del funcionamiento del equipo y de los principios físicos aplicados para la resolución de fallas. Trabajo conjunto con bioquímicos y personal médico. Comunicación técnica en inglés con proveedores y fabricantes."
                 },
                 {
-                    "title": "Coradir S.A.",
+                    "title": "Coradir S.A. – Área Investigación y Desarrollo",
                     "date": "2021 - 2023",
-                    "descr": "En área investigación y desarrollo, contribuyendo al desarrollo de hardware y software, entre las actividades se destacan, programación en bajo nivel (C, C++), Desarrollo de aplicaciones de escritorio (Python), manejo de instrumentos de medición (multímetro, osciloscopio, fuentes de laboratorio, cargas electrónicas, etc) y diseño y modelado 3D usando software de diseño paramétrico (Solidworks, Fusion360)."
+                    "descr": "Participación en proyectos de investigación y desarrollo de hardware y software. Diseño de PCB utilizando software especializado (Altium, KiCad, Proteus). Programación en C y C++ para sistemas embebidos. Desarrollo de herramientas internas en Python. Pruebas, validación y puesta a punto de prototipos electrónicos. Diseño y modelado 3D de componentes mecánicos mediante software CAD paramétrico."
                 },
                 {
-                    "title": "Laboratorios Biofarma S.A.",
+                    "title": "Laboratorios Biofarma S.A. – Ingeniero de Servicio Técnico",
                     "date": "2020 - 2021",
-                    "descr": "En éste trabajo me desenvolví realizando tareas de mantenimiento preventivo y correctivo de equipamiento de laboratorio clinico, usando distintos instrumentos de medicion y trabajando en un entorno de trabajo multidisciplinario."
+                    "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico. Diagnóstico y reparación de fallas electrónicas, mecánicas e hidráulicas. Análisis funcional de equipos automatizados y comprensión de los principios de operación para la identificación de fallas. Trabajo en entornos multidisciplinarios y atención técnica a usuarios finales."
                 }
             ]
         }
     },
     "english": {
-        "about":
-        {
-            "title":"About me",
-            "descr":
-            {
-
-                "fullstack":"I'm a freelance full-stack developer solution-oriented and passionate about programming, so I constantly enjoy learning new technologies to improve my work, and have experience building web tools and automation systems to streamline workflows. My curiosity given to me to learn about differet topics like videogame developing, I've been developed a few games using different tools like Unity Engine and Blender.",
-                "engineer":"I'm Electronics Engineer with digital systems orientation, passionate for finding solutions and programming. I enjoy learning new technologies and applying my knowledge to improve my productivity under my different work environements. I can adapt and integrate quickly into work teams."
+        "about": {
+            "title": "About me",
+            "descr": {
+                "fullstack": "I'm a freelance full-stack developer solution-oriented and passionate about programming, so I constantly enjoy learning new technologies to improve my work, and have experience building web tools and automation systems to streamline workflows. My curiosity given to me to learn about differet topics like videogame developing, I've been developed a few games using different tools like Unity Engine and Blender.",
+                "engineer": "I'm Electronics Engineer with digital systems orientation, passionate for finding solutions and programming. I enjoy learning new technologies and applying my knowledge to improve my productivity under my different work environements. I can adapt and integrate quickly into work teams."
             }
         },
-        "presentation":{
-            "name":"Emiliano Dovichi",
-            "titles":{
-                "fullstack":"Full-Stack Developer | Electronic Engineer | Freelance",
-                "engineer":"Electronics Engineer | Full-Stack Developer | Freelance"
+        "presentation": {
+            "name": "Emiliano Dovichi",
+            "titles": {
+                "fullstack": "Full-Stack Developer | Electronic Engineer | Freelance",
+                "engineer": "Electronics Engineer | Full-Stack Developer | Freelance"
             }
         },
         "professional": {
-            "title": 
-            {
-                "fullstack":"Professional experience.",
-                "engineer":"Other jobs"
+            "title": {
+                "fullstack": "Professional experience.",
+                "engineer": "Other jobs"
             },
             "descr": "as freelance developer, I have used various technologies that have allowed me enhance my capabilities through my different professional environements.",
             "date": "2021 - present",
@@ -205,7 +202,7 @@
                     "NodeJS",
                     "MongoDB",
                     "SQLite"
-                    ]
+                ]
             },
             "langs": [
                 {
@@ -226,7 +223,7 @@
                         },
                         {
                             "title": "IoT platform.",
-                            "descr": "Design and developing of a Full-Stack platform for IoT device control, including user register and MQTT messenger - Developed indepenently as part of a commertial product, using technologies like ReactJS (Front-End), NodeJS (Back-End) and MongoDB (Database), currently migrating to a SQL database." 
+                            "descr": "Design and developing of a Full-Stack platform for IoT device control, including user register and MQTT messenger - Developed indepenently as part of a commertial product, using technologies like ReactJS (Front-End), NodeJS (Back-End) and MongoDB (Database), currently migrating to a SQL database."
                         }
                     ]
                 },
@@ -241,42 +238,42 @@
                 }
             ]
         },
-        "skills":{
-            "title":"Skills",
-            "fullstack":[
+        "skills": {
+            "title": "Skills",
+            "fullstack": [
                 {
-                    "title":"Programming languages",
-                    "descr":"JavaScript, CSS, HTML, Python, C#, C++, C"
+                    "title": "Programming languages",
+                    "descr": "JavaScript, CSS, HTML, Python, C#, C++, C"
                 },
                 {
-                    "title":"Frameworks and libraries",
-                    "descr":"ReactJS, React Native, NodeJS, Express, Handlebars, Flask"
+                    "title": "Frameworks and libraries",
+                    "descr": "ReactJS, React Native, NodeJS, Express, Handlebars, Flask"
                 },
                 {
-                    "title":"Databases",
-                    "descr":"MongoDB, SQLite, SQL"
+                    "title": "Databases",
+                    "descr": "MongoDB, SQLite, SQL"
                 },
                 {
-                    "title":"Tools and software",
-                    "descr":"Git, GitHub, NPM, API REST, WebSockets, JWT, Postman"
+                    "title": "Tools and software",
+                    "descr": "Git, GitHub, NPM, API REST, WebSockets, JWT, Postman"
                 }
             ],
-            "engineer":[
+            "engineer": [
                 {
-                    "title":"Communication protocols",
-                    "descr":"UART, I2C, SPI, CAN, Ehternet, WiFi, Bluetooth"
+                    "title": "Communication protocols",
+                    "descr": "UART, I2C, SPI, CAN, Ehternet, WiFi, Bluetooth"
                 },
                 {
-                    "title":"Hardware design",
-                    "descr":"Altium Designer, KiCad, Proteus"
+                    "title": "Hardware design",
+                    "descr": "Altium Designer, KiCad, Proteus"
                 },
                 {
-                    "title":"Programming languages",
-                    "descr":"C, C++, Python, C#, JavaScript, HTML, CSS"
+                    "title": "Programming languages",
+                    "descr": "C, C++, Python, C#, JavaScript, HTML, CSS"
                 },
                 {
-                    "title":"Parametric 3D design",
-                    "descr":"Solidworks, Fusion 360"
+                    "title": "Parametric 3D design",
+                    "descr": "Solidworks, Fusion 360"
                 }
             ]
         },
@@ -309,10 +306,9 @@
             ]
         },
         "background": {
-            "title": 
-            {
-                "fullstack":"Other jobs",
-                "engineer":"Professional experience."
+            "title": {
+                "fullstack": "Other jobs",
+                "engineer": "Professional experience."
             },
             "jobs": [
                 {
