@@ -25,12 +25,9 @@
                 "title": "Tecnologías:",
                 "data": [
                     "Python",
-                    "JavaScript",
-                    "NodeJS",
-                    "ReactJS",
-                    "MongoDB",
-                    "SQLite",
-                    "MQTT"
+                    "Sistemas embebidos",
+                    "Comunicaciones técnicas (UART, MQTT)",
+                    "Automatización de tareas"
                 ]
             },
             "langs": [
@@ -39,7 +36,7 @@
                     "projs": [
                         {
                             "title": "Herramientas internas de automatización",
-                            "descr": "Desarrollo de aplicaciones de escritorio y sistemas auxiliares para automatizar tareas operativas, registrar información técnica y mejorar la trazabilidad de procesos. Incluye backend para almacenamiento de datos y front-end para interacción de usuarios."
+                            "descr": "Desarrollo de herramientas técnicas para automatizar tareas operativas, registrar información de equipos y mejorar la trazabilidad de intervenciones técnicas."
                         }
                     ]
                 },
@@ -48,7 +45,7 @@
                     "projs": [
                         {
                             "title": "Plataforma de monitoreo y control IoT",
-                            "descr": "Diseño y desarrollo de una plataforma para supervisión y control de dispositivos electrónicos, con gestión de usuarios y comunicación mediante MQTT. Orientado al control operativo, seguimiento de estados y escalabilidad del sistema."
+                            "descr": "Desarrollo de sistemas de monitoreo y registro de estados de equipos electrónicos, orientados al soporte técnico, seguimiento de fallas y control operativo."
                         }
                     ]
                 },
@@ -57,7 +54,7 @@
                     "projs": [
                         {
                             "title": "Herramientas de interacción con equipamiento electrónico",
-                            "descr": "Desarrollo de software para comunicación con dispositivos electrónicos mediante protocolo UART, permitiendo la ejecución de rutinas definidas por el usuario y el control de procesos técnicos específicos."
+                            "descr": "Desarrollo de herramientas de soporte técnico para interacción con equipamiento electrónico mediante protocolos de comunicación, permitiendo diagnóstico, ejecución de rutinas de prueba y asistencia en procesos técnicos."
                         }
                     ]
                 }
@@ -159,15 +156,21 @@
                     "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico automatizado (química clínica, inmunología, endocrinología, bacteriología, uroanálisis y hematología). Diagnóstico de fallas electrónicas, mecánicas e hidráulicas, incluyendo detección de fugas, desgaste de componentes, fallas de motores y desalineaciones mecánicas. Análisis del funcionamiento del equipo y de los principios físicos aplicados para la resolución de fallas. Trabajo conjunto con bioquímicos y personal médico. Comunicación técnica en inglés con proveedores y fabricantes."
                 },
                 {
+                    "title": "Laboratorios Biofarma S.A. – Ingeniero de Servicio Técnico",
+                    "date": "2020 - 2021",
+                    "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico. Diagnóstico y reparación de fallas electrónicas, mecánicas e hidráulicas. Análisis funcional de equipos automatizados y comprensión de los principios de operación para la identificación de fallas. Trabajo en entornos multidisciplinarios y atención técnica a usuarios finales."
+                },
+                {
                     "title": "Coradir S.A. – Área Investigación y Desarrollo",
                     "date": "2021 - 2023",
                     "descr": "Participación en proyectos de investigación y desarrollo de hardware y software. Diseño de PCB utilizando software especializado (Altium, KiCad, Proteus). Programación en C y C++ para sistemas embebidos. Desarrollo de herramientas internas en Python. Pruebas, validación y puesta a punto de prototipos electrónicos. Diseño y modelado 3D de componentes mecánicos mediante software CAD paramétrico."
                 },
                 {
-                    "title": "Laboratorios Biofarma S.A. – Ingeniero de Servicio Técnico",
-                    "date": "2020 - 2021",
-                    "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico. Diagnóstico y reparación de fallas electrónicas, mecánicas e hidráulicas. Análisis funcional de equipos automatizados y comprensión de los principios de operación para la identificación de fallas. Trabajo en entornos multidisciplinarios y atención técnica a usuarios finales."
+                    "title": "Micromet S.R.L - Práctica Profesional Supervisada",
+                    "date": "2018",
+                    "descr": "Relevamiento de infraestructura eléctrica y técnica en entorno productivo. Soporte técnico a operaciones de planta y áreas administrativas. Interacción con personal operativo y técnico en contexto industrial."
                 }
+
             ]
         }
     },
