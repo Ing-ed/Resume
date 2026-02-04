@@ -4,24 +4,24 @@
             "title": "Sobre mi",
             "descr": {
                 "fullstack": "Desarrollador Full-Stack con formación en Ingeniería Electrónica y experiencia como freelance en desarrollo de soluciones web. Apasionado por la programación, disfruto creando herramientas para la automatización de procesos, cuento con proyectos propios en ReactJS, NodeJS, MongoDB y SQL. Me adapto fácilmente a nuevas tecnologías.",
-                "engineer": "Ingeniero Electrónico con experiencia en mantenimiento preventivo y correctivo de sistemas electromecánicos y electrónicos, y participación en desarrollo de hardware y software en entornos de I+D. Especializado en diagnóstico de fallas eléctricas, electrónicas, mecánicas e hidráulicas en equipos automáticos. Experiencia en análisis de funcionamiento de sistemas, desarrollo en C/C++ y herramientas de soporte en Python. Perfil analítico, orientado a la resolución de problemas, cumplimiento de procedimientos técnicos y mejora operativa."
+                "engineer": "Ingeniero Electrónico con experiencia en soporte técnico y mantenimiento de equipos automatizados complejos.\nTrabajo con sistemas electromecánicos y electrónicos, realizando diagnóstico de fallas eléctricas, mecánicas e hidráulicas en entornos operativos críticos.\nCuento ademas con experiencia en desarrollo y validación de hardware y software para sistemas embebidos, integrando electrónica, mecánica y control."
             }
         },
         "presentation": {
             "name": "Emiliano Dovichi",
             "titles": {
                 "fullstack": "Desarrollador Full-Stack | Ingeniero Electrónico | Freelance",
-                "engineer": "Ingeniero Electrónico | Ingeniería de Campo | Operaciones y Mantenimiento"
+                "engineer": "Ingeniero Electrónico – Sistemas Automatizados y Diagnóstico Técnico"
             }
         },
         "professional": {
             "title": {
                 "fullstack": "Experiencia profesional.",
-                "engineer": "Experiencia complementaria."
+                "_": "Experiencia complementaria."
             },
-            "descr": "Desarrollo independiente de soluciones técnicas y herramientas de software orientadas a la optimización de procesos, automatización de tareas y soporte operativo en entornos técnicos.",
-            "date": "2021 - presente",
-            "tech": {
+            "_descr": "Desarrollo independiente de soluciones técnicas integrales y herramientas de software orientadas a la optimización de procesos, automatización de tareas y soporte operativo en entornos técnicos.",
+            "_date": "2021 - presente",
+            "_tech": {
                 "title": "Tecnologías:",
                 "data": [
                     "Python",
@@ -30,7 +30,7 @@
                     "Automatización de tareas"
                 ]
             },
-            "langs": [
+            "_langs": [
                 {
                     "lang": "Aplicaciones de gestión y productividad",
                     "projs": [
@@ -85,36 +85,28 @@
             "engineer": {
                 "skills": [
                     {
-                        "title": "Mantenimiento de equipamiento automatizado",
-                        "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico automatizado (química clínica, inmunología, hematología, bacteriología y uroanálisis)"
+                        "title": "Diagnóstico técnico",
+                        "descr": "Análisis y resolución de fallas electrónicas, mecánicas e hidráulicas en sistemas complejos"
                     },
                     {
-                        "title": "Diagnóstico técnico integral",
-                        "descr": "Diagnóstico y resolución de fallas electrónicas, mecánicas e hidráulicas en equipos complejos, incluyendo detección de fugas, desgaste de componentes, fallas de motores y desalineaciones mecánicas"
+                        "title": "Diseño de hardware electrónico",
+                        "descr": "Diseño de esquemáticos y PCB para prototipos electrónicos (Altium Designer, KiCad, Proteus)"
                     },
                     {
-                        "title": "Análisis funcional de sistemas",
-                        "descr": "Análisis del funcionamiento integral de equipos y comprensión de los principios físicos aplicados para la identificación de fallas"
+                        "title": "Sistemas embebidos",
+                        "descr": "Desarrollo de firmware en C y C++ para microcontroladores"
                     },
                     {
                         "title": "Protocolos de comunicación",
                         "descr": "UART, I2C, SPI, CAN, Ethernet, WiFi, Bluetooth"
                     },
                     {
-                        "title": "Diseño de hardware electrónico",
-                        "descr": "Diseño de PCB y esquemáticos con Altium Designer, KiCad y Proteus"
+                        "title": "Automatización y scripting",
+                        "descr": "Desarrollo de herramientas técnicas en Python para configuración, pruebas y soporte"
                     },
                     {
-                        "title": "Lenguajes de programación",
-                        "descr": "C, C++, Python, C#, JavaScript (HTML, CSS)"
-                    },
-                    {
-                        "title": "Diseño mecánico 3D paramétrico",
-                        "descr": "Modelado y diseño de piezas mecánicas con SolidWorks y Fusion 360"
-                    },
-                    {
-                        "title": "Trabajo interdisciplinario",
-                        "descr": "Trabajo coordinado con bioquímicos, personal médico y equipos técnicos. Comunicación técnica en inglés con proveedores y fabricantes"
+                        "title": "Diseño mecánico 3D",
+                        "descr": "Modelado paramétrico de componentes con SolidWorks y Fusion 360"
                     }
                 ]
             }
@@ -134,7 +126,6 @@
                         "Control y automatización"
                     ]
                 },
-                
                 {
                     "title": "Idiomas",
                     "knows": [
@@ -153,24 +144,26 @@
                 {
                     "title": "Científica San Luis S.A. – Ingeniero de Servicio Técnico",
                     "date": "2023 - Presente",
-                    "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico automatizado (química clínica, inmunología, endocrinología, bacteriología, uroanálisis y hematología). Diagnóstico de fallas electrónicas, mecánicas e hidráulicas, incluyendo detección de fugas, desgaste de componentes, fallas de motores y desalineaciones mecánicas. Análisis del funcionamiento del equipo y de los principios físicos aplicados para la resolución de fallas. Trabajo conjunto con bioquímicos y personal médico. Comunicación técnica en inglés con proveedores y fabricantes."
+                    "descr": "Soporte técnico y mantenimiento de equipamiento automatizado de laboratorio clínico, crítico para la operación diaria y continuidad del servicio.",
+                    "job":["Diagnóstico y resolución de fallas eléctricas, electrónicas, mecánicas e hidráulicas en sistemas automatizados complejos.","Ejecución de mantenimiento preventivo, priorizando continuidad operativa y confiabilidad del equipo.","Relevamiento técnico, instalación y puesta en servicio de nuevos equipos automatizados, incluyendo verificación de condiciones de sitio y validación funcional inicial.","Interacción técnica con usuarios especializados y comunicación con fabricantes y proveedores internacionales en inglés."]
                 },
                 {
-                    "title": "Laboratorios Biofarma S.A. – Ingeniero de Servicio Técnico",
+                    "title": "Laboratorios Biofarma S.A. – Especialista Post Venta",
                     "date": "2020 - 2021",
-                    "descr": "Mantenimiento preventivo y correctivo de equipamiento de laboratorio clínico. Diagnóstico y reparación de fallas electrónicas, mecánicas e hidráulicas. Análisis funcional de equipos automatizados y comprensión de los principios de operación para la identificación de fallas. Trabajo en entornos multidisciplinarios y atención técnica a usuarios finales."
+                    "descr": "Mantenimiento preventivo y correctivo de equipamiento automatizado de laboratorio clínico.",
+                    "job":[" Diagnóstico y reparación de fallas electrónicas, mecánicas e hidráulicas.","Análisis funcional de equipos automatizados para identificación de fallas y verificación de correcto funcionamiento.","Trabajo en entornos multidisciplinarios y atención técnica a usuarios finales."]
                 },
                 {
                     "title": "Coradir S.A. – Área Investigación y Desarrollo",
                     "date": "2021 - 2023",
-                    "descr": "Participación en proyectos de investigación y desarrollo de hardware y software. Diseño de PCB utilizando software especializado (Altium, KiCad, Proteus). Programación en C y C++ para sistemas embebidos. Desarrollo de herramientas internas en Python. Pruebas, validación y puesta a punto de prototipos electrónicos. Diseño y modelado 3D de componentes mecánicos mediante software CAD paramétrico."
+                    "descr": "Ejecución técnica de proyectos de investigación y desarrollo de sistemas electrónicos para vehículos eléctricos, integrando hardware, software y comunicaciones.\n\t• Desarrollo e integración de sistemas electrónicos de gestión y protección de baterías, con control de alimentación.\n\t• Implementación de simuladores de carga y descarga de baterías mediante control de contactores para emulación de perfiles de uso.\n\t• Diseño de soluciones electrónicas desde cero para adaptación de sistemas del vehículo, instrumentación y monitoreo operativo.\n\t• Diseño de esquemáticos y PCB utilizando Altium Designer, KiCad y Proteus.\n\t• Desarrollo de herramientas internas en Python para configuración de dispositivos, automatización de pruebas y soporte al desarrollo.\n\t• Pruebas, validación funcional y puesta a punto de prototipos electrónicos.\n\t• Diseño y modelado 3D de componentes mecánicos mediante software CAD paramétrico.\n\t• Asignación y supervisión técnica puntual de tareas a pasantes durante el desarrollo de proyectos.",
+                    "job":["Desarrollo e integración de sistemas electrónicos de gestión y protección de baterías, con control de alimentación.",""]
                 },
                 {
                     "title": "Micromet S.R.L - Práctica Profesional Supervisada",
                     "date": "2018",
-                    "descr": "Relevamiento de infraestructura eléctrica y técnica en entorno productivo. Soporte técnico a operaciones de planta y áreas administrativas. Interacción con personal operativo y técnico en contexto industrial."
+                    "descr": "Práctica Profesional Supervisada en entorno industrial.\n\t• Soporte técnico a operaciones de planta y áreas administrativas.\n\t• Interacción con personal operativo y técnico en contexto industrial."
                 }
-
             ]
         }
     },

@@ -1,6 +1,6 @@
 @page {
   size: A4;
-  margin: 20mm;
+  /* margin: 20mm; */
 }
 @media print{
     .section{
@@ -22,7 +22,7 @@
     margin: 1em;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
 }
 .body hr{
     margin-bottom: 0.5em;
@@ -72,6 +72,12 @@ header #contacto .dataContact{
     gap:0.2em;
 }
 
+h3{
+    font-size: 13pt;
+}
+p{
+    font-size: 11pt;
+}
 /* Section */
 #exps{
     display: flex;
@@ -100,7 +106,7 @@ header #contacto .dataContact{
 .listas{
     display: flex;
     flex-direction: column;
-    gap:1em;
+    gap:0.4em;
 }
 
 #techs{
@@ -114,16 +120,19 @@ header #contacto .dataContact{
 .data{
     display: flex;
     flex-direction: column;
-    gap:2em
+    gap:1em
 }
 
 /* background */
 #jobs{
     display: flex;
     flex-direction: column;
-    gap:2em
+    gap:1em
 }
 
 #education p{
     white-space: pre-line;
+}
+#jobs p{
+    white-space: pre-wrap;
 }
