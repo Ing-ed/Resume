@@ -71,27 +71,27 @@
         <div id="skills" class="section">
             <h3>{{skills.title}}</h3>
             <hr>
-            <ul>
+            {{!-- <ul> --}}
             {{#if clase}}
                 {{#each skills.engineer.skills}}
                 <p><b>{{this.title}}</b></p>
-                <ul>
+                {{!-- <ul> --}}
                     <li>
                         <p>{{this.descr}}</p>
                     </li>
-                </ul>
+                {{!-- </ul> --}}
                 {{/each}}
             {{else}}
                 {{#each skills.fullstack.skills}}
                 <p><b>{{this.title}}</b></p>
-                <ul>
+                {{!-- <ul> --}}
                     <li>
                         <p>{{this.descr}}</p>
                     </li>
-                </ul>
+                {{!-- </ul> --}}
                 {{/each}}
             {{/if}}
-            </ul>
+            {{!-- </ul> --}}
         </div>
         <br>
         {{!-- <div id="tecnologies" class="section"></div> --}}
@@ -104,11 +104,11 @@
                 <p><i>{{this.date}}</i></p>
                 <p>{{this.stablish}}</p>
                 <p>{{education.relevant}}</p>
-                <ul>
+                {{!-- <ul> --}}
                     {{#each this.knows}}
                         <li>{{this}}</li>
                     {{/each}}
-                </ul>
+                {{!-- </ul> --}}
                 <br>
             {{/each}}
         </div>
@@ -126,6 +126,9 @@
                         <p><strong>{{this.title}}</strong></p>
                         <p><i>{{this.date}}</i></p>
                         <p>{{this.descr}}</p>
+                        {{#each this.job}}
+                            <li>{{this}}</li>
+                        {{/each}}
                     </div>
                 {{/each}}
             </div>

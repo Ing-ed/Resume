@@ -92,7 +92,7 @@ p{
     margin-left: 2em;
     /* list-style-type: none; */
 }
-.section ul li::marker{
+.section li::marker{
     color: teal;
     size: 3em;
 }

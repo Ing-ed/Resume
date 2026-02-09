@@ -156,13 +156,14 @@
                 {
                     "title": "Coradir S.A. – Área Investigación y Desarrollo",
                     "date": "2021 - 2023",
-                    "descr": "Ejecución técnica de proyectos de investigación y desarrollo de sistemas electrónicos para vehículos eléctricos, integrando hardware, software y comunicaciones.\n\t• Desarrollo e integración de sistemas electrónicos de gestión y protección de baterías, con control de alimentación.\n\t• Implementación de simuladores de carga y descarga de baterías mediante control de contactores para emulación de perfiles de uso.\n\t• Diseño de soluciones electrónicas desde cero para adaptación de sistemas del vehículo, instrumentación y monitoreo operativo.\n\t• Diseño de esquemáticos y PCB utilizando Altium Designer, KiCad y Proteus.\n\t• Desarrollo de herramientas internas en Python para configuración de dispositivos, automatización de pruebas y soporte al desarrollo.\n\t• Pruebas, validación funcional y puesta a punto de prototipos electrónicos.\n\t• Diseño y modelado 3D de componentes mecánicos mediante software CAD paramétrico.\n\t• Asignación y supervisión técnica puntual de tareas a pasantes durante el desarrollo de proyectos.",
-                    "job":["Desarrollo e integración de sistemas electrónicos de gestión y protección de baterías, con control de alimentación.",""]
+                    "descr": "Ejecución técnica de proyectos de investigación y desarrollo de sistemas electrónicos para vehículos eléctricos, integrando hardware, software y comunicaciones.",
+                    "job":["Desarrollo e integración de sistemas electrónicos de gestión y protección de baterías, con control de alimentación.","Implementación de simuladores de carga y descarga de baterías mediante control de contactores para emulación de perfiles de uso.","Diseño de soluciones electrónicas desde cero para adaptación de sistemas del vehículo, instrumentación y monitoreo operativo.","Diseño de esquemáticos y PCB utilizando Altium Designer, KiCad y Proteus.","Pruebas, validación funcional y puesta a punto de prototipos electrónicos.","Asignación y supervisión técnica puntual de tareas a pasantes durante el desarrollo de proyectos."]
                 },
                 {
                     "title": "Micromet S.R.L - Práctica Profesional Supervisada",
                     "date": "2018",
-                    "descr": "Práctica Profesional Supervisada en entorno industrial.\n\t• Soporte técnico a operaciones de planta y áreas administrativas.\n\t• Interacción con personal operativo y técnico en contexto industrial."
+                    "descr": "Práctica Profesional Supervisada en entorno industrial.\n\t• Soporte técnico a operaciones de planta y áreas administrativas.",
+                    "job" :["Interacción con personal operativo y técnico en contexto industrial."]
                 }
             ]
         }
